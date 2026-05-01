@@ -4,25 +4,6 @@ Auto-generated [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkp
 
 A GitHub Action runs nightly, fetches the latest upstream styles, strips transparency, adds proper UserCSS auto-update headers, and commits the results. Stylus polls the raw file URLs and updates automatically.
 
-## Setup (one time)
-
-### 1. Create the repo
-
-- Go to [github.com/new](https://github.com/new)
-- Name it `zen-stylus` (or anything you like)
-- Set it to **Public** (required for raw URLs to work with Stylus)
-- Don't initialize with any files
-
-### 2. Push this code
-
-```bash
-git clone https://github.com/YOUR-USERNAME/zen-stylus.git
-cd zen-stylus
-# copy these files in, then:
-git add .
-git commit -m "init"
-git push
-```
 
 ### 3. Run the Action for the first time
 
