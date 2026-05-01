@@ -7,6 +7,9 @@ on:
   workflow_dispatch:
     # Allows you to trigger a manual run from the Actions tab anytime
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -21,7 +24,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Fetch and process styles
         env:
@@ -33,6 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add styles/
           # Only commit if something actually changed
           git diff --staged --quiet || git commit -m "chore: update styles from upstream [$(date -u '+%Y-%m-%d')]"
