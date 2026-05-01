@@ -1,0 +1,39 @@
+name: Update styles
+
+on:
+  schedule:
+    # Runs every day at 3am UTC
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    # Allows you to trigger a manual run from the Actions tab anytime
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch and process styles
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/process.js
+
+      - name: Commit updated styles
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add styles/
+          # Only commit if something actually changed
+          git diff --staged --quiet || git commit -m "chore: update styles from upstream [$(date -u '+%Y-%m-%d')]"
+          git push
