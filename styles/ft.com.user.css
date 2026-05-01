@@ -1,0 +1,39 @@
+/* ==UserStyle==
+@name           ft.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for ft.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/ft.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("ft.com") {
+  html,
+  .n-layout__header-before,
+  .o-header,
+  .markets-data-wrapper {
+  }
+
+  /* ft-transparency darkreader */
+
+  /* ft-no post background */
+  .slice__content,
+  .separator--dotted {
+    background: none !important;
+  }
+
+  /* ft-no borders */
+  .o-header__row,
+  .layout__grid-content,
+  .list__item-link,
+  .separator--solid,
+  .story-group__article,
+  .spotlight-grid--secondary-story {
+    border: none !important;
+  }
+
+  /* ft-no footer */
+  footer {
+    display: none !important;
+  }
+}

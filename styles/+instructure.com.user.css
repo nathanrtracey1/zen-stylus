@@ -1,0 +1,60 @@
+/* ==UserStyle==
+@name           +instructure.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +instructure.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+instructure.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+instructure.com") {
+  /* canvas-transparency */
+  .ic-Dashboard-header,
+  .ic-Dashboard-header__layout,
+  #dashboard-planner-header,
+  #nav-tray-portal > span > span,
+  .PlannerHeader-styles__root,
+  .PlannerHeader,
+  .CanvasPlanner__HeaderContainer,
+  .profile-tray,
+  .ic-app-header__main-navigation,
+  .ic-notification__content,
+  .tox .tox-toolbar-overlord,
+  .Grouping-styles__title,
+  .Grouping-styles__title::after,
+  .header-bar,
+  #context_modules_sortable_container,
+  div:has(> div[data-testid="text-editor"]),
+  label > span[data-position-target] > span,
+  div[data-testid="attempt-tab"] > div,
+  html,
+  body,
+  nav,
+  header {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* canvas-sidebar */
+  .navigation-tray-container,
+  .tox-menu {
+    background: color-mix(in srgb, var(--natsumi-colors-secondary, color-mix(in srgb, #101010 30%, #202020 70%)) 60%, transparent) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(var(--glass-blur-radius, 10px));
+    border: 1px solid rgba(200, 200, 200, 0.1) !important; /* Optional subtle border */
+  }
+
+  /* canvas-bettercanvas */
+  :root {
+    --bcsidebar: transparent !important;
+  }
+
+  /* canvas-darkreader */
+}

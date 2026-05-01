@@ -1,0 +1,41 @@
+/* ==UserStyle==
+@name           instructables.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for instructables.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/instructables.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("instructables.com") {
+  /* instructables-Transparency */
+  body,
+  .full-wrapper,
+  .instructables-header,
+  ._footerWrapper_1g310_1,
+  ._commentEditorWrapper_cfxvj_8,
+  ._comment_83cm4_11,
+  ._searchInput_3i53d_19,
+  .author-promo,
+  ._wrapper_ez9w2_12,
+  ._button_156n2_17 {
+    background: none !important;
+  }
+
+  /* instructables-Darkreader */
+
+  /* instructables-No Signup Background */
+  ._signupBackground_ez9w2_4 {
+    background: none !important;
+  }
+
+  /* instructables-No Recommendations */
+  ._recommendations_fjzu6_4 {
+    display: none !important;
+  }
+
+  /* instructables-No Footer */
+  footer {
+    display: none !important;
+  }
+}

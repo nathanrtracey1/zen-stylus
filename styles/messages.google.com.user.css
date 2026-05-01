@@ -1,0 +1,113 @@
+/* ==UserStyle==
+@name           messages.google.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for messages.google.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/messages.google.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("messages.google.com") {
+  html,
+  body,
+  .header,
+  mw-main-nav,
+  mw-main-landing,
+  mw-conversation-container,
+  .input-background,
+  mw-new-conversation-container {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* messages-darkreader */
+
+  /* messages-no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* messages-round chip */
+  .conv-container mws-conversation-list-item > a,
+  .contact-chip-input,
+  .contact-chip-input input {
+    border-radius: 1em;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  /* messages-glass effect */
+  .input-box,
+  mws-message-send-button,
+  .right-content,
+  mw-new-conversation-sub-header {
+    background-color: #10101090 !important;
+    backdrop-filter: blur(10px);
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: #ffffff30 !important;
+  }
+
+  .right-content,
+  mw-new-conversation-sub-header {
+    border-radius: 99999px !important;
+  }
+
+  .reply-header-container {
+    background-color: #ffffff30 !important;
+  }
+
+  nav.container {
+    background-color: #10101090 !important;
+    backdrop-filter: blur(10px);
+  }
+
+  .input,
+  #gb {
+  }
+
+  mw-branded-header {
+    background-color: #10101090 !important;
+  }
+
+  /* messages-compact sidebar */
+  .main-nav {
+    min-width: 85px !important;
+    width: 50px !important;
+    transition: 0.3s !important;
+
+    & .start-chat .mdc-button {
+      min-width: 50px !important;
+      width: 50px !important;
+    }
+
+    & .fab-label,
+    & mw-banner {
+      display: none !important;
+    }
+  }
+
+  .main-nav:hover,
+  body:has(.mat-mdc-menu-content) .main-nav {
+    width: 400px !important;
+    transition: 0.5s !important;
+
+    & .start-chat .mdc-button {
+      min-width: 200px !important;
+      width: 200px !important;
+    }
+
+    & .fab-label,
+    & mw-banner {
+      display: flex !important;
+    }
+  }
+}

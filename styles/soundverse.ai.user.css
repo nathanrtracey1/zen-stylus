@@ -1,0 +1,47 @@
+/* ==UserStyle==
+@name           soundverse.ai (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for soundverse.ai, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/soundverse.ai.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("soundverse.ai") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  header,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  #content,
+  section,
+  main,
+  .OfferBanner_offer-banner__xlgYQ,
+  .Home_head__nbvaD,
+  section > div,
+  section > span > span {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* hidden */
+  [alt="universe"] {
+    display: none !important;
+  }
+}

@@ -1,0 +1,49 @@
+/* ==UserStyle==
+@name           backloggd.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for backloggd.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/backloggd.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("backloggd.com") {
+  body,
+  .site-body,
+  footer,
+  .article-hero::before {
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  :root {
+    --back-secondary: #00000000 !important;
+    --back-highlight: rgba(0, 0, 0, 0) !important;
+  }
+
+  .navbar {
+    border-bottom: none !important;
+    border-bottom: none !important;
+  }
+
+  #primary-nav.hide-border #nav-bar-search,
+  #primary-nav.hide-border .search-btn {
+    border-width: 0px !important;
+  }
+
+  .modal-search .search-btn,
+  .navbar .search-btn,
+  .modal-search .search-bar,
+  .navbar .search-bar,
+  .btn-general {
+    background-color: #00000000 !important;
+  }
+
+  /* bkl-no footer */
+  footer {
+    display: none !important;
+  }
+}

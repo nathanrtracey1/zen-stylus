@@ -1,0 +1,56 @@
+/* ==UserStyle==
+@name           desktop.telegram.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for desktop.telegram.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/desktop.telegram.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("desktop.telegram.org") {
+  /* tg-transparency */
+  :root {
+    --color-background: #00000000 !important;
+    --theme-background-color: #00000000 !important;
+    --color-borders: #00000000 !important;
+    --color-light-shadow: #00000000 !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  body,
+  html,
+  html.theme-dark,
+  #root,
+  html.theme-dark .ThfRMqwq::before,
+  html.theme-dark .C6IaXYew:not(.K1xhz7U5):not(.CwoXMwaR)::after {
+    background-image: none !important;
+  }
+
+  .C6IaXYew,
+  .ThfRMqwq {
+    background-color: #00000000 !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  .menu-container {
+    background-color: #000000 !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  .settings-main-menu {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}

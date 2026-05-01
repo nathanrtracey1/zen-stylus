@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name           desmos.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for desmos.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/desmos.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("desmos.com") {
+  html,
+  body,
+  .dcg-sliding-interior,
+  .dcg-main-header-container {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* desmos-darkreader */
+
+  .dcg-dropdown-popover > div:nth-child(1) {
+    background-color: var(--darkreader-background-fcfcfc) !important;
+  }
+
+  /* desmos-borders */
+  #main {
+    border-radius: 1em !important;
+    overflow: hidden !important;
+  }
+
+  .dcg-keypad-btn-container span {
+    border-radius: 0.5em !important;
+  }
+
+  /* desmos-no footer */
+  .dcg-basic-calculator-footer {
+    display: none !important;
+  }
+}

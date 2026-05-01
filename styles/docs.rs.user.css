@@ -1,0 +1,44 @@
+/* ==UserStyle==
+@name           docs.rs (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for docs.rs, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/docs.rs.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("docs.rs") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  header,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  #content,
+  section,
+  #__next,
+  li > a {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  .nav-container {
+    border-radius: 1em !important;
+    margin: 1em !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+}

@@ -1,0 +1,43 @@
+/* ==UserStyle==
+@name           startpage.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for startpage.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/startpage.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("startpage.com") {
+  html,
+  body,
+  nav,
+  header {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* startpage-darkreader */
+
+  /* startpage-no footer */
+  .footer-above-the-fold,
+  footer,
+  .feedback-serp-container {
+    display: none !important;
+  }
+
+  /* startpage-hover */
+  #home-top-header,
+  .top-nav-container {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+}

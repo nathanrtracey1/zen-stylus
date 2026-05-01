@@ -1,0 +1,58 @@
+/* ==UserStyle==
+@name           w3schools.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for w3schools.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/w3schools.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("w3schools.com") {
+  /* w3-transparency */
+  html,
+  body.darkpagetheme,
+  #top-nav-bar,
+  #pagetop,
+  body.darkpagetheme .topnavcontainer,
+  body.darkpagetheme #subtopnav,
+  #scroll_right_btn,
+  body.darkpagetheme .contentcontainer,
+  .w3-sidebar,
+  .w3-example,
+  .w3-panel,
+  .w3-code,
+  #belowtopnav,
+  #leftmenuinnerinner,
+  body.darkpagetheme .w3-white,
+  .contentcontainer,
+  .w3-white,
+  .topnavcontainer,
+  #subtopnav,
+  #exercisecontainer,
+  hr,
+  #main,
+  body.darkpagetheme #subtopnav,
+  body.darkpagetheme .topnavcontainer,
+  body.darkpagetheme .topnavbackground,
+  body.darkpagetheme .topnavcontainer,
+  body.darkpagetheme #subtopnav {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  .topnavbackground {
+    display: none;
+  }
+
+  /* w3-no footer */
+  #footerwrapper,
+  #wrappercontainer {
+    display: none !important;
+  }
+}

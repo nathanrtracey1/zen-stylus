@@ -1,0 +1,36 @@
+/* ==UserStyle==
+@name           journals.sagepub.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for journals.sagepub.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/journals.sagepub.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("journals.sagepub.com") {
+  html,
+  body,
+  .header,
+  [role="navigation"],
+  [role="menuitem"] button,
+  .more-sage-products__container {
+    background: none !important;
+  }
+
+  /* sagepub-darkreader */
+
+  /* sagepub-no borders */
+  body,
+  .header,
+  [role="navigation"],
+  [role="menuitem"] button,
+  .more-sage-products__container {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  /* sagepub-no footer */
+  footer {
+    display: none !important;
+  }
+}

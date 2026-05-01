@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name           robu.in (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for robu.in, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/robu.in.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("robu.in") {
+  /* robu-forced darkreader */
+  :root {
+    --backdrop-bg: rgba(255, 255, 255, 0.75);
+  }
+
+  [data-darkreader-scheme="dark"] {
+    --backdrop-bg: rgba(0, 0, 0, 0.75) !important;
+  }
+
+  /* robu-forced no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* robu-transparent header */
+  .mobile-header-v2,
+  .robu_highlight_menu,
+  .robu_highlight_menu a {
+  }
+
+  /* robu-blur dropdown */
+  .dropdown-menu,
+  .stuck,
+  .dgwt-wcas-search-focused .dgwt-wcas-sf-wrapp,
+  .dgwt-wcas-suggestions-wrapp,
+  .dgwt-wcas-details-wrapp,
+  #robu-brand-fill-checkBoxes,
+  .off-canvas-navigation {
+    backdrop-filter: blur(16px) saturate(180%) !important;
+    background-color: var(--backdrop-bg) !important;
+  }
+}

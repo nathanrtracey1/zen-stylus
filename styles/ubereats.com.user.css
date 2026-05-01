@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name           ubereats.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for ubereats.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/ubereats.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("ubereats.com") {
+  /* transparency */
+  body,
+  html,
+  #root,
+  header,
+  header div,
+  main .rm,
+  [data-testid="active-order-sticky-eta"],
+  .jv > div:nth-child(1) > div:nth-child(1),
+  div.s7:nth-child(1),
+  .ae.bh > div,
+  .st,
+  .jo {
+    background-color: #00000000 !important;
+    background: none !important;
+  }
+
+  #main-content > div:nth-child(1),
+  .b0 {
+    border-radius: 1em !important;
+    background-color: light-dark(#fff, #222) !important;
+  }
+
+  /* map transparency */
+  iframe,
+  canvas {
+    opacity: 0.6 !important;
+    border-radius: 1em !important;
+  }
+
+  /* darkreader */
+}

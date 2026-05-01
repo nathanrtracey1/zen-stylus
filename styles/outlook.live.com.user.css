@@ -1,0 +1,44 @@
+/* ==UserStyle==
+@name           outlook.live.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for outlook.live.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/outlook.live.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("outlook.live.com") {
+  /* outlook-transparency */
+  html,
+  body,
+  nav,
+  header,
+  #appContainer,
+  #O365_NavHeader,
+  [aria-label="App launcher"],
+  #owaBranding_container > div,
+  #LeftRail,
+  .gU1Tf,
+  [aria-label="Hide navigation pane"],
+  .root-171,
+  .pivot-header-root > button,
+  .QIl4y,
+  .YYA9V,
+  [data-app-section="MessageList"],
+  .bkYAr,
+  #ReadingPaneContainerId,
+  #OwaTitleBar button,
+  #O365_HeaderRightRegion,
+  .IjQyD,
+  .customScrollBar,
+  .X4w2q {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+}

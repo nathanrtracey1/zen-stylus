@@ -1,0 +1,37 @@
+/* ==UserStyle==
+@name           codepen.io (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for codepen.io, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/codepen.io.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("codepen.io") {
+  body.editor {
+    background: none !important;
+  }
+  footer {
+    background: none !important;
+  }
+
+  /* Transparent Navbar */
+  :root {
+    --cp-color-20: transparent !important
+  ;
+  }
+
+  /* Transparent Code Editor */
+  .box.box.box,
+  .editor .top-boxes,
+  .CodeMirror-gutter-wrapper,
+  body.project .editor-pane,
+  body.project .editor {
+    background: none !important;
+  }
+
+  /* Glass Effect */
+  :root {
+    --cp-grid-item-bg: rgba(0, 0, 0, 0.4);
+  }
+}

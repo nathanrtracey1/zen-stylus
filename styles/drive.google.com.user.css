@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name           drive.google.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for drive.google.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/drive.google.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("drive.google.com") {
+  /* drive-transparency */
+  .YkfxEe,
+  .ZHllM,
+  .ALpC8b,
+  .a-b-uoC0bf.a-b-L .a-b-jl,
+  .S630me,
+  .PolqHc,
+  body,
+  .owVllc,
+  .jLwBBf,
+  .aaHEi,
+  .zyephd,
+  .sEppUc,
+  .IkfnSb .zXGQ6d,
+  .iBEKub {
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+}

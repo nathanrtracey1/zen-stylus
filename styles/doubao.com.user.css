@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name           doubao.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for doubao.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/doubao.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("doubao.com") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  header,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  #content,
+  section,
+  .panelWrapper-UzEi_e,
+  .container-teUxvp {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* darkreader */
+
+  /* no thanks */
+  .banner-lwUWVk,
+  [data-testid="chat_header_download_client"] {
+    display: none !important;
+  }
+}

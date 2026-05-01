@@ -1,0 +1,67 @@
+/* ==UserStyle==
+@name           tv24.lt (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for tv24.lt, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/tv24.lt.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("tv24.lt") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar,
+  header,
+  #header,
+  .header,
+  app,
+  #app,
+  .app,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  main,
+  #content,
+  .schedule section,
+  .main-header__section,
+  #__next,
+  body > div,
+  #navigation-wrapper,
+  #global-navbar,
+  .head.notfixed,
+  body[data-theme="dark"],
+  body[data-theme="light"],
+  body.dark_mode,
+  body.light_mode {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  .daymenu,
+  article,
+  .dropdown-menu,
+  .modal-content {
+    border-radius: 1em !important;
+    margin: 4px !important;
+  }
+
+  article.schedule,
+  .daymenu,
+  .modal-content {
+    background-color: light-dark(#fff, #222) !important;
+  }
+
+  /* darkreader */
+}

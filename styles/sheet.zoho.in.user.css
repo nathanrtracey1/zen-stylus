@@ -1,0 +1,114 @@
+/* ==UserStyle==
+@name           sheet.zoho.in (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for sheet.zoho.in, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/sheet.zoho.in.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("sheet.zoho.in") {
+  :root,
+  body {
+    --white: transparent !important;
+    --side-panel-color: transparent !important;
+    --main-ctn: transparent !important;
+    --zsheet-white: transparent !important;
+    --zsheet-formula-bar: transparent !important;
+    --zsheet-status-bar: transparent !important;
+    --zsheet-select-all: transparent !important;
+    --zsheet-scrollbar-area: transparent !important;
+    --zsheet-input: transparent !important;
+  }
+
+  .wms-mainui {
+  }
+
+  .CG_gridContainer,
+  .sPRt > .sPISet {
+  }
+
+  /* zs-Immersive Popup */
+  body {
+    --properties-panel-color: transparent !important;
+    --zsheet-sidepanel: transparent !important;
+  }
+
+  .zwd-theme-integration {
+  }
+
+  .zmbackdrop--dark__bxuhvd,
+  .zwd-ui.zwd-dimmer {
+  }
+
+  body {
+    &:has(#zmCompPortalWrapper > div:not(:empty), #zwd-draggable-dialog) {
+      #slMainContainer,
+      #wmstoolbar,
+      #sheetTopMenu,
+      > .mainGrid,
+      > .sheetTabHldrCtn {
+        filter: blur(20px) !important;
+      }
+    }
+
+    &:has(#LPUserProfileCtn[style=""], #tbUserProfile[style=""]) {
+      #slHeader,
+      #zsMainContainer,
+      #wmstoolbar,
+      #sheetTopMenu,
+      > .mainGrid,
+      > .sheetTabHldrCtn {
+        filter: blur(20px) !important;
+        pointer-events: none !important;
+      }
+    }
+
+    &:has(#menutabContainer > .zmenubar__item.is-selected.on-hover) {
+      #quickToolBar,
+      > .mainGrid {
+        filter: blur(20px) !important;
+      }
+    }
+
+    &:has(> .zsubmenu[aria-hidden="false"], > .zdropdownlist[aria-hidden="false"]) {
+      > .mainGrid {
+        filter: blur(20px) !important;
+      }
+    }
+  }
+
+  /* zs-Glss Effect */
+  body {
+    --color-highlight: hsla(0, 0%, 100%, 0.08) !important;
+    --border-color: var(--color-highlight) !important;
+    --header-border-color: var(--color-highlight) !important;
+    --zsheet-border: var(--color-highlight) !important;
+    --border-grey-color: var(--color-highlight) !important;
+    --zsheet-green-active: var(--color-highlight) !important;
+    --zsheet-button-set-active: var(--color-highlight) !important;
+    --zsheet-toolbar-btn-hover-bg: var(--color-highlight) !important;
+    --zsheet-toolbar-btn-active-bg: var(--color-highlight) !important;
+    --zsheet-sidepanel: var(--color-highlight) !important;
+    --zsheet-white-medium-BG: var(--color-highlight) !important;
+    --zsheet-formula-bar-bdr: var(--color-highlight) !important;
+    --zsheet-sidepanel-border: var(--color-highlight) !important;
+    --zsheet-border-dark: var(--color-highlight) !important;
+    --zsheet-white: var(--color-highlight) !important
+  ;
+  }
+
+  .zwd-theme-integration {
+    --zwd-page-bg: var(--color-highlight) !important;
+    --zwd-hover-bg: var(--color-highlight) !important;
+    --zwd-medium-hover-bg: var(--color-highlight) !important;
+    --zwd-border-color: var(--color-highlight) !important;
+    --zwd-light-border-color: var(--color-highlight) !important;
+    --zsheet-toolbar-btn-active-bg: var(--color-highlight) !important;
+    --zsheet-toolbar-btn-active-stroke: var(--color-highlight) !important;
+  }
+
+  /* zs-Misc */
+  .shIconsHldr > li {
+  }
+}

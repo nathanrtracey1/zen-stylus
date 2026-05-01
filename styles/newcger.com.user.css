@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name           newcger.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for newcger.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/newcger.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("newcger.com") {
+  html,
+  body,
+  header,
+  section,
+  .blockTit {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* borders */
+  .imageTextItem li,
+  .hover-img img,
+  .addAttentionItem li {
+    border-radius: 1em !important;
+    overflow: hidden !important;
+  }
+
+  /* no ads */
+  [data-name="advertisement"] {
+    display: none !important;
+  }
+}

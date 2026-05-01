@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name           +kotlinlang.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +kotlinlang.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+kotlinlang.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+kotlinlang.org") {
+  /* klang-Transparency */
+  html,
+  body,
+  .app-container,
+  .ktl-header-module_header-menu_wh71L,
+  .toolbar,
+  .playground,
+  .executable-fragment,
+  .code-area,
+  .CodeMirror,
+  .output-wrapper,
+  .toc,
+  .wt-section,
+  .starting-page-card,
+  .keep-in-touch_wrapper__us7aS,
+  .teach-subscription-form {
+    background: none !important;
+  }
+
+  /* klang-No Footer */
+  footer {
+    display: none !important;
+  }
+}

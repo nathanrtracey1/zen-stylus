@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name           play.pokemonshowdown.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for play.pokemonshowdown.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/play.pokemonshowdown.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("play.pokemonshowdown.com") {
+  /* pokemon-transparency */
+  html,
+  body,
+  nav,
+  #header,
+  #room-rooms,
+  [data-darkreader-inline-bgcolor],
+  #room-battles,
+  .ps-room.ps-room-opaque,
+  .battle-log,
+  .battle-controls,
+  .battle-log-add,
+  #room-overused,
+  .chat-log {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* pokemon-darkreader */
+
+  /* pokemon-no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* pokemon-widlcard (keep off) */
+  div {
+  }
+}

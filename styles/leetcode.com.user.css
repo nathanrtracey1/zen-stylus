@@ -1,0 +1,58 @@
+/* ==UserStyle==
+@name           leetcode.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for leetcode.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/leetcode.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("leetcode.com") {
+  html,
+  body,
+  nav,
+  .storyboard,
+  .side-block {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  :is(.dark .dark\:bg-dark-layer-bg),
+  body,
+  #explore-app .background-rvs,
+  :is(.dark .dark\:bg-layer-bg-gray),
+  .user-story-chapter-base,
+  .min-w-\[360px\] {
+    background: none !important;
+    color: white;
+  }
+  .flexlayout__tabset,
+  :is(.dark .dark\:bg-layer-01) {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .monaco-editor,
+  .monaco-editor .inputarea.ime-input,
+  .monaco-editor .margin,
+  .monaco-editor .monaco-editor-background {
+    background: none !important;
+  }
+
+  /* leetcode-darkreader */
+
+  /* leetcode-no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* leetcode-no dividers */
+  hr {
+    opacity: 0 !important;
+  }
+}

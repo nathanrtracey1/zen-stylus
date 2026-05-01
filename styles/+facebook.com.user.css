@@ -1,0 +1,37 @@
+/* ==UserStyle==
+@name           +facebook.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +facebook.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+facebook.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+facebook.com") {
+  /* fb-transparency */
+  :root {
+    --web-wash: #00000000 !important;
+    --nav-bar-background: #00000000 !important;
+  }
+
+  body,
+  #mount_0_0_u1 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {
+    background-color: #00000000 !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* fb-other changes */
+
+  div.xnp8db0:nth-child(1),
+  div.xnp8db0:nth-child(4) {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+/* ==UserStyle==
+@name           time.is (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for time.is, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/time.is.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("time.is") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar,
+  header,
+  #header,
+  .header,
+  app,
+  #app,
+  .app,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  main,
+  #content,
+  section,
+  #__next,
+  #navigation-wrapper,
+  #global-navbar,
+  .head.notfixed,
+  body[data-theme="dark"],
+  body[data-theme="light"],
+  body.dark_mode,
+  body.light_mode {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* hover */
+  #top {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+
+  #time_section > div {
+    transition: all 0.5s ease-in-out !important;
+  }
+
+  #time_section:has(#msgs + div:hover) > div:not(:has(#clock0_bg)) {
+    opacity: 0.2 !important;
+  }
+
+  /* other */
+  #time_section {
+    height: 90dvh !important;
+    align-items: center !important;
+    align-content: center !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer,
+  #menupositioner {
+    display: none !important;
+  }
+}

@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name           dash.cloudflare.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for dash.cloudflare.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/dash.cloudflare.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("dash.cloudflare.com") {
+  html,
+  body,
+  nav,
+  header,
+  aside,
+  [aria-label="Collapse sidebar"],
+  [aria-label="Expand sidebar"],
+  div.c_if {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* cloudflare-darkreader */
+
+  /* cloudflare-no footer */
+  footer.c_c {
+    display: none !important;
+  }
+}

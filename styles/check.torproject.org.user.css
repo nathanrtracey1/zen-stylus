@@ -1,0 +1,38 @@
+/* ==UserStyle==
+@name           check.torproject.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for check.torproject.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/check.torproject.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("check.torproject.org") {
+  body,
+  .head {
+    color: white !important;
+  }
+
+  /* anchor styles */
+  a {
+    color: white !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
+  }
+
+  /* anchor hover */
+  a:not(#donate):hover {
+    color: #85559f !important;
+    text-decoration: underline !important;
+  }
+
+  /* no javascript text */
+  p#js {
+    display: none !important;
+  }
+
+  /* no footer */
+  div.foot {
+    display: none !important;
+  }
+}

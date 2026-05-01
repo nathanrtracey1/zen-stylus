@@ -1,0 +1,49 @@
+/* ==UserStyle==
+@name           wikihow.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for wikihow.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/wikihow.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("wikihow.com") {
+  |cssbase/* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar,
+  header,
+  #header,
+  .header, #mw-content-text > div,
+  app, #mw-mf-viewport,
+  #app, #mw-mf-page-center,
+  .app, #mw-mf-page-center > div:not(#article_courses_banner),
+  .app-root,
+  #pass-sidebar,
+  #main,
+  main, .header_container:not(.shrunken),
+  #content,
+  section,
+  #__next,
+  #navigation-wrapper,
+  #global-navbar,
+  .head.notfixed, 
+  body[data-theme="dark"], body[data-theme="light"],
+  body.dark_mode, body.light_mode {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* darkreader */
+}

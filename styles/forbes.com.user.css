@@ -1,0 +1,37 @@
+/* ==UserStyle==
+@name           forbes.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for forbes.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/forbes.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("forbes.com") {
+  html,
+  body,
+  nav,
+  header,
+  .main-content,
+  .happening-now,
+  .fbs-slider__slide::before,
+  .for-you-card,
+  .fbs-slider__slides-wrapper::after {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* forbes-darkreader */
+
+  /* forbes-no footer */
+  footer,
+  hr {
+    display: none !important;
+  }
+}

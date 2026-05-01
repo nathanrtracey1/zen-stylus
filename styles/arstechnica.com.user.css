@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name           arstechnica.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for arstechnica.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/arstechnica.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("arstechnica.com") {
+  html,
+  body,
+  nav,
+  header,
+  header > div,
+  div.dusk\:bg-gray-700:nth-child(4),
+  article > div {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* arstechnica-darkreader */
+
+  /* arstechnica-no footer */
+  footer {
+    display: none !important;
+  }
+}

@@ -1,0 +1,39 @@
+/* ==UserStyle==
+@name           app.graphite.dev (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for app.graphite.dev, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/app.graphite.dev.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("app.graphite.dev") {
+  [class^="PullRequestTitleBar_container__"] {
+  }
+
+  [class^="InfoSidebar_infoSidebar__"] {
+  }
+
+  /* graphite-hover */
+  [class^="FilesSidebar_filesSidebarContents__"] {
+    opacity: 0 !important;
+
+    &:hover {
+      opacity: 1 !important;
+      transition:
+        opacity 0.3s ease-in-out,
+        visibility 0s linear 0s !important;
+    }
+  }
+
+  [class^="InfoSidebar_infoSidebar__"] {
+    opacity: 0 !important;
+
+    &:hover {
+      opacity: 1 !important;
+      transition:
+        opacity 0.3s ease-in-out,
+        visibility 0s linear 0s !important;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           phabricator.wikimedia.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for phabricator.wikimedia.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/phabricator.wikimedia.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("phabricator.wikimedia.org") {
+  /* transparency */
+  html,
+  body,
+  .phabricator-main-menu-background,
+  .phui-box,
+  .phabricator-side-menu,
+  .phui-oi,
+  .phui-oi-tail,
+  .phui-header-shell,
+  .phui-list-item-selected .phui-list-item-href {
+    background: none !important;
+  }
+}

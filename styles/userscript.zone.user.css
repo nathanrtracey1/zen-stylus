@@ -1,0 +1,90 @@
+/* ==UserStyle==
+@name           userscript.zone (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for userscript.zone, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/userscript.zone.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("userscript.zone") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar,
+  header,
+  #header,
+  .header,
+  header::before,
+  app,
+  #app,
+  footer,
+  .sidebar-wrap,
+  section,
+  .main,
+  #__next,
+  .sidebar-wrapper,
+  .sidebar-footer-wrapper,
+  .sidebar-footer-container::before,
+  #root,
+  .min-h-screen.bg-white,
+  .app,
+  .AppContainer,
+  .app-root,
+  #wrapper,
+  body[data-theme="dark"],
+  body[data-theme="light"],
+  #pass-sidebar,
+  .side-bar,
+  #main,
+  .sidebar,
+  .global-content__content,
+  main,
+  .header-top,
+  #content,
+  #cu-identity,
+  section,
+  .l-root,
+  #__next,
+  .landing-hero,
+  #navigation-wrapper,
+  #global-navbar,
+  .layout__content-wrapper,
+  .head.notfixed,
+  .main-container,
+  #app > div,
+  .btm-nav > a,
+  .oc-content--main,
+  body.dark_mode,
+  body.light_mode,
+  text-div > textarea,
+  .row.popular-searches > div {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  input {
+    border-radius: 0.5em !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer,
+  mfe-footer-pharos-footer,
+  .footer,
+  #footer {
+    display: none !important;
+  }
+}

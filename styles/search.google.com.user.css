@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name           search.google.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for search.google.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/search.google.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("search.google.com") {
+  /* searchg-transparency */
+  html,
+  body,
+  nav,
+  header,
+  body > div > c-wiz > div > div,
+  body > div > c-wiz > div > div > div > div,
+  body > div > div,
+  [aria-label="navigational drawer"],
+  .a9v4Mc::after,
+  #resource-selector-container,
+  #resource-selector-container > c-wiz > div,
+  #gb {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  [role="listbox"][data-expanded="true"][data-childcount] {
+    background-color: light-dark(#fff, #222);
+  }
+
+  /* searchg-darkreader */
+
+  /* searchg-no footer */
+  footer,
+  .RiJJIe.j2F0y {
+    display: none !important;
+  }
+}

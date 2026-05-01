@@ -1,0 +1,70 @@
+/* ==UserStyle==
+@name           jules.google.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for jules.google.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/jules.google.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("jules.google.com") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar,
+  header,
+  #header,
+  .header,
+  app,
+  .header + .ng-star-inserted,
+  #app,
+  .title.ng-star-inserted:has(.summary),
+  .app,
+  swebot-code-panel,
+  .app-root,
+  .code-header,
+  .code-container,
+  #pass-sidebar,
+  .wavy-line-container,
+  #main,
+  swebot-chat,
+  .chat-header,
+  main,
+  .buttons-container:has(.rate-limit-container),
+  swebot-navbar,
+  #content,
+  .mat-mdc-tooltip-trigger,
+  section,
+  .source-header,
+  #__next,
+  swebot-root,
+  #navigation-wrapper,
+  swebot-start-panel,
+  #global-navbar,
+  #start-panel,
+  .head.notfixed,
+  body[data-theme="dark"],
+  body[data-theme="light"],
+  body.dark_mode,
+  body.light_mode {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* no footer */
+  .footer,
+  .disclaimer {
+    display: none !important;
+  }
+}

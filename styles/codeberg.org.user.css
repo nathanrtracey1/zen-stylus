@@ -1,0 +1,50 @@
+/* ==UserStyle==
+@name           codeberg.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for codeberg.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/codeberg.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("codeberg.org") {
+  html,
+  body,
+  #navbar {
+    background: none !important;
+  }
+
+  .segment {
+    background-color: color-mix(in srgb, var(--color-box-body), transparent 50%) !important;
+  }
+
+  .secondary-nav {
+    background: none !important;
+  }
+
+  /* codeberg-hover */
+  #dashboard-repo-list,
+  #navbar {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+
+  #navbar {
+    min-height: 10px !important;
+    height: 10px !important;
+    transition: all 0.3s ease-in-out !important;
+
+    &:hover {
+      height: 50px !important;
+    }
+  }
+
+  /* codeberg-rounded corners */
+  img {
+    border-radius: 10px !important;
+  }
+}

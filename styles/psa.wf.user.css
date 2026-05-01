@@ -1,0 +1,64 @@
+/* ==UserStyle==
+@name           psa.wf (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for psa.wf, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/psa.wf.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("psa.wf") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar,
+  header,
+  #header,
+  .header,
+  app,
+  #app,
+  .app,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  .container-inner,
+  main,
+  .main,
+  #page,
+  #content,
+  .sidebar-content,
+  section,
+  .sidebar-content > div,
+  #__next,
+  .page-title,
+  .alx-posts li,
+  #navigation-wrapper,
+  #wrapper,
+  #global-navbar,
+  .main::after,
+  .head.notfixed,
+  .post-row,
+  body[data-theme="dark"],
+  body[data-theme="light"],
+  .container-inner > .main,
+  body.dark_mode,
+  body.light_mode {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+}

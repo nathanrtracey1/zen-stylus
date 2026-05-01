@@ -1,0 +1,61 @@
+/* ==UserStyle==
+@name           robocraze.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for robocraze.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/robocraze.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("robocraze.com") {
+  /* rc-Transparency */
+  body,
+  .utility-bar,
+  .header-wrapper,
+  .background-none,
+  .color-background-1,
+  .color-background-2,
+  .card__media,
+  .multicolumn,
+  .multicolumn-card,
+  .search__input,
+  .accordion,
+  .customcard,
+  .customcard h2,
+  .prorw-sort-by,
+  .prorw-summary-starrating,
+  .prorw-summary-actions-newreview,
+  .prorw-summary-actions-newquestion,
+  .card-wrapper,
+  .sc-fxdwpw,
+  .sc-fxdwpw::before {
+  }
+  :root {
+    --backdrop-bg: rgba(255, 255, 255, 0.75);
+    --backdrop-filter: blur(16px) saturate(180%) !important;
+  }
+
+  /* rc-Darkreader */
+
+  [data-darkreader-scheme="dark"] {
+    --backdrop-bg: rgba(0, 0, 0, 0.75) !important;
+  }
+
+  /* rc-Translucent Overlays */
+  .menu-drawer,
+  .category-menu,
+  .scrolled-past-header,
+  .category-submenu,
+  .header__submenu,
+  .search-modal,
+  .predictive-search,
+  .sc-dCZjNh {
+    backdrop-filter: var(--backdrop-filter) !important;
+    background-color: var(--backdrop-bg) !important;
+  }
+
+  /* rc-No Footer */
+  .shopify-section-group-footer-group {
+    display: none !important;
+  }
+}

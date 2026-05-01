@@ -1,0 +1,55 @@
+/* ==UserStyle==
+@name           beta.music.apple.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for beta.music.apple.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/beta.music.apple.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("beta.music.apple.com") {
+  /* applem-no borders */
+  @media (prefers-color-scheme: dark), @media (prefers-color-scheme: light) {
+    :root {
+      --labelDivider: none !important;
+      --playerDropShadow2: none !important;
+      --playerInnerShadow: none !important;
+    }
+  }
+
+  body,
+  .navigation,
+  amp-chrome-player::before {
+  }
+
+  /* applem-no thanks */
+  [slot="native-cta"] {
+    display: none !important;
+  }
+
+  /* applem-hover sidebar */
+  [data-testid="header"] {
+    left: -200px !important;
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+    &:hover {
+      left: 0 !important;
+      opacity: 1 !important;
+    }
+  }
+
+  [data-testid="player-bar"],
+  #scrollable-pag {
+    transition: all 0.3s ease-in-out !important;
+  }
+
+  .body-container:not(:has([data-testid="header"]:hover)) {
+    [data-testid="player-bar"] {
+      width: 100vw !important;
+    }
+
+    #scrollable-page {
+      margin-left: -100px !important;
+    }
+  }
+}

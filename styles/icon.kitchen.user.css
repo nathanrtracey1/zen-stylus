@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           icon.kitchen (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for icon.kitchen, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/icon.kitchen.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("icon.kitchen") {
+  body {
+    background: none !important;
+  }
+
+  .MainPage_preview__3qv9s {
+  }
+}

@@ -1,0 +1,43 @@
+/* ==UserStyle==
+@name           app.galxe.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for app.galxe.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/app.galxe.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("app.galxe.com") {
+  html,
+  body,
+  nav,
+  header,
+  div.mix-blend-multiply:nth-child(1),
+  img.top-0 {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* galxe-darkreader */
+
+  /* galxe-no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* galxe-hidden */
+  img.top-0 {
+    display: none !important;
+  }
+
+  /* galxe-no sticky header */
+  header {
+    position: relative !important;
+  }
+}

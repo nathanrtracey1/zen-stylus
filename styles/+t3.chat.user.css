@@ -1,0 +1,46 @@
+/* ==UserStyle==
+@name           +t3.chat (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +t3.chat, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+t3.chat.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+t3.chat") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  header,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  #content,
+  section,
+  .border-r,
+  .group\/sidebar-wrapper > div,
+  .dark\:bg-sidebar > div,
+  main > div,
+  .to-transparent,
+  .bg-noise,
+  .bg-gradient-noise-top {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* hidden */
+  footer,
+  span:has(a[href="/terms-of-service"]),
+  .prose:has(a[href="/terms-of-service"]),
+  [style="clip-path: inset(0px 12px 0px 0px);"],
+  .fixed.right-0.top-0 .ease-snappy svg {
+    display: none !important;
+  }
+}

@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name           rutracker.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for rutracker.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/rutracker.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("rutracker.org") {
+  /* rutracker-transparency */
+  html,
+  body,
+  nav,
+  header,
+  #body_container,
+  #page_container,
+  #main-nav,
+  .topmenu,
+  h3,
+  .news_title,
+  td,
+  .sb2-block {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* rutracker-darkreader */
+
+  /* rutracker-no footer */
+  footer {
+    display: none !important;
+  }
+}

@@ -1,0 +1,107 @@
+/* ==UserStyle==
+@name           temu.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for temu.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/temu.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("temu.com") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar,
+  header,
+  #header,
+  .header,
+  header::before,
+  app,
+  .baseContent > div,
+  #app,
+  footer,
+  .sidebar-wrap,
+  #rightContent,
+  #mainHeader,
+  #mainHeader > div > div,
+  #mainHeader > div > div > div,
+  section,
+  .main,
+  ._2LmAUJYN,
+  #__next,
+  .sidebar-wrapper,
+  .sidebar-footer-wrapper,
+  .sidebar-footer-container::before,
+  #root,
+  .min-h-screen.bg-white,
+  .app,
+  .AppContainer,
+  .app-root,
+  #wrapper,
+  body[data-theme="dark"],
+  body[data-theme="light"],
+  #pass-sidebar,
+  .side-bar,
+  #main,
+  .sidebar,
+  .global-content__content,
+  main,
+  .header-top,
+  #content,
+  #cu-identity,
+  section,
+  .l-root,
+  #reviewContent,
+  #__next,
+  .landing-hero,
+  #navigation-wrapper,
+  ._151rnt-L,
+  #global-navbar,
+  .layout__content-wrapper,
+  .head.notfixed,
+  .main-container,
+  #app > div,
+  .btm-nav > a,
+  .oc-content--main,
+  body.dark_mode,
+  body.light_mode,
+  text-div > textarea {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  .RFdtYPtR {
+    display: none;
+  }
+
+  .goods-container {
+    padding: 5px !important;
+    border-radius: 7px !important;
+  }
+
+  .goods-container-inner-external > [data-tooltip-title] img,
+  .goods-image-container-external img.goods-img-external {
+    border-radius: 7px !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer,
+  mfe-footer-pharos-footer,
+  .footer,
+  #footer {
+    display: none !important;
+  }
+}

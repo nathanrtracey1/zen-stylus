@@ -1,0 +1,60 @@
+/* ==UserStyle==
+@name           +buymeacoffee.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +buymeacoffee.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+buymeacoffee.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+buymeacoffee.com") {
+  /* bmac-Transparency */
+  .bg-floral-white,
+  .public-page-wrap,
+  .nav,
+  .container,
+  .bg-white,
+  .bg-greyF5,
+  .bg-pageTheme1,
+  .tw-input-common,
+  .tw-bg-greyF0F,
+  .bmc-header-logo,
+  .sidebar-wrap,
+  .tw-bg-white,
+  .disable-wrap {
+    background: none !important;
+  }
+  :root {
+    --backdrop-bg: rgba(255, 255, 255, 0.75);
+    --backdrop-filter: blur(16px) saturate(180%) !important;
+  }
+
+  /* bmac-Darkreader */
+
+  [data-darkreader-scheme="dark"] {
+    --backdrop-bg: rgba(0, 0, 0, 0.75) !important;
+  }
+
+  /* bmac-Translucent Header */
+  .header-on-scroll {
+    backdrop-filter: var(--backdrop-filter) !important;
+    background-color: var(--backdrop-bg) !important;
+  }
+
+  /* bmac-Translucent Overlays */
+  [aria-modal="true"],
+  .tw-feature-box,
+  .mob-payout-sec,
+  .bg-warning,
+  .tw-bg-warningYellow,
+  .dropdown-menu,
+  .z-100 {
+    backdrop-filter: var(--backdrop-filter) !important;
+    background-color: var(--backdrop-bg) !important;
+  }
+
+  /* bmac-No Footer */
+  .pb-70[data-v-27aa2dc8=""] {
+    display: none !important;
+  }
+}

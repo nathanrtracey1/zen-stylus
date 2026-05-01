@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           kick.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for kick.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/kick.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("kick.com") {
+  :root,
+  .bg-surface-lower,
+  .bg-black {
+    --tw-bg-opacity: 0 !important;
+  }
+
+  /* kick-nav shadow */
+  nav {
+    box-shadow: none !important;
+  }
+
+  /* kick-overlay bg */
+  .z-dropdown {
+    background-color: var(--tw-shadow-color, #000) !important;
+  }
+}

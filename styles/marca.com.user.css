@@ -1,0 +1,46 @@
+/* ==UserStyle==
+@name           marca.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for marca.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/marca.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("marca.com") {
+  /* marca-transparency */
+  html,
+  body,
+  nav,
+  header,
+  .main-top-header-container,
+  .main-nav-container,
+  .main-tab-highlight::before,
+  .ue-c-main-navigation__teams,
+  .ue-l-cover-grid__inner,
+  .ue-c-carousel,
+  .ue-c-carousel-theme,
+  .ue-l-article__inner {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* marca-darkreader */
+
+  /* marca-no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* marca-hidden */
+  .seo-links-container-justify-center,
+  .seo-links-container {
+    display: none !important;
+  }
+}

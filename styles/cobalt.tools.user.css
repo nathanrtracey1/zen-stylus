@@ -1,0 +1,37 @@
+/* ==UserStyle==
+@name           cobalt.tools (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for cobalt.tools, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/cobalt.tools.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("cobalt.tools") {
+  body,
+  #cobalt,
+  #sidebar,
+  #content {
+    background: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* cobalt-hidden */
+  #terms-note {
+    display: none !important;
+  }
+
+  /* cobalt-hover */
+  #sidebar,
+  #supported-services {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+}

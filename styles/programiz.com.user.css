@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name           programiz.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for programiz.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/programiz.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("programiz.com") {
+  /* transparency */
+  .dark-mode,
+  .dark-mode .header,
+  .dark-mode .wrapper,
+  .dark-mode .editor-wrapper,
+  .dark-mode .ace_editor,
+  .dark-mode .ace_gutter,
+  .dark-mode .ace_scroller,
+  .dark-mode .ace_gutter-active-line,
+  .dark-mode .ace_gutter-cell,
+  .dark-mode .terminal-wrapper {
+    background: none !important;
+  }
+}

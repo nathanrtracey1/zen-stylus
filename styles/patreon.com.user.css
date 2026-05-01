@@ -1,0 +1,49 @@
+/* ==UserStyle==
+@name           patreon.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for patreon.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/patreon.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("patreon.com") {
+  /* ptrn-Transparency */
+  body,
+  .ddnNvy,
+  .AppNav_inner__g_uet,
+  .sc-jlRLRk,
+  .sc-fWCJzd,
+  .sc-gGCDDS,
+  .jiUDtX,
+  .bYBvcO,
+  .sc-7ed82751-1,
+  .sc-31a3766-0,
+  .sc-dUbtfd,
+  .sc-783e1624-0,
+  .sc-e5acda53-2,
+  #Popover-0 {
+    background: none !important;
+  }
+  :root {
+    --backdrop-bg: rgba(255, 255, 255, 0.75);
+    --backdrop-filter: blur(16px) saturate(180%) !important;
+  }
+  html .token-modes_colorDark__Lyj72 {
+    --backdrop-bg: rgba(0, 0, 0, 0.75) !important;
+  }
+  html .token-modes_colorAuto__979ij {
+    @media (prefers-color-scheme: dark) {
+      --backdrop-bg: rgba(0, 0, 0, 0.75) !important;
+    }
+  }
+
+  /* ptrn-Translucent Overlays */
+  .kELvYM,
+  .cGiFAO,
+  .hHftgo,
+  .sc-lcepkR {
+    backdrop-filter: var(--backdrop-filter) !important;
+    background-color: var(--backdrop-bg) !important;
+  }
+}

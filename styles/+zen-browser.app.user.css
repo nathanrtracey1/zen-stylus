@@ -1,0 +1,60 @@
+/* ==UserStyle==
+@name           +zen-browser.app (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +zen-browser.app, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+zen-browser.app.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+zen-browser.app") {
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar header,
+  #header,
+  .header,
+  app,
+  #app,
+  .app,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  main,
+  .page .center,
+  .overflow::after,
+  .astronav-items,
+  #content,
+  section,
+  #__next,
+  #navigation-wrapper,
+  #global-navbar,
+  #nd-sidebar,
+  .head.notfixed,
+  body.dark_mode,
+  body.light_mode {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* footer */
+  #footer {
+    background-color: color-mix(in srgb, var(--zen-dark), transparent) !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+    border: none !important;
+  }
+}

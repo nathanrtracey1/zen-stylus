@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           +inertia.social (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +inertia.social, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+inertia.social.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+inertia.social") {
+  body,
+  body::before,
+  #header-wrapper {
+    background: none !important;
+  }
+
+  #header {
+    border: none !important;
+  }
+
+  .timeline > .m > article,
+  article.community {
+    background: rgba(0, 0, 0, 0.3) !important;
+  }
+
+  article.pinged {
+    background: rgba(100, 100, 100, 0.2) !important;
+  }
+}

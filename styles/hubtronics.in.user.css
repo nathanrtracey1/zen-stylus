@@ -1,0 +1,64 @@
+/* ==UserStyle==
+@name           hubtronics.in (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for hubtronics.in, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/hubtronics.in.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("hubtronics.in") {
+  /* htcs-Transparency */
+  body,
+  header a,
+  .grid-row,
+  .module-body,
+  .product-price-group,
+  .breadcrumb::before,
+  .caption,
+  .mobile-header,
+  .mobile-top-bar,
+  .mobile-bar,
+  .mobile-logo-wrapper,
+  .mobile-wrapper-header,
+  .flyout-menu-item a,
+  .product-thumb,
+  .block-expand-overlay {
+    background: none !important;
+  }
+
+  /* htcs-Darkreader */
+  :root {
+    --backdrop-bg: rgba(255, 255, 255, 0.75);
+    --backdrop-filter: blur(16px) saturate(180%) !important;
+  }
+
+  [data-darkreader-scheme="dark"] {
+    --backdrop-bg: rgba(0, 0, 0, 0.75) !important;
+  }
+
+  /* htcs-Transparent Header */
+  header,
+  .navbar-nav,
+  .navbar-nav::before {
+  }
+
+  /* htcs-Translucent Overlays */
+  .is-sticky .navbar-nav::before,
+  .mobile-container,
+  .tt-menu,
+  .j-dropdown {
+    backdrop-filter: var(--backdrop-filter) !important;
+    background-color: var(--backdrop-bg) !important;
+  }
+
+  /* htcs-Misc */
+  .swiper-container {
+    overflow: hidden !important;
+  }
+
+  /* htcs-No Footer */
+  footer {
+    display: none !important;
+  }
+}

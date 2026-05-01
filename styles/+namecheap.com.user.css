@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name           +namecheap.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +namecheap.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+namecheap.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+namecheap.com") {
+  /* namecheap-transparency */
+  html,
+  body,
+  #header,
+  nav,
+  #header .top-hat,
+  #apnav li,
+  th,
+  td,
+  .gb-header,
+  .gb-top-block,
+  .uiexpiringsoon .nav-tabs,
+  .tab-list,
+  li.tab {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* namecheap-darkreader */
+
+  /* namecheap-no footer */
+  footer,
+  layout-livechat {
+    display: none !important;
+  }
+
+  /* namecheap-no borders */
+  [data-toggle="tab"],
+  hr {
+    border: none !important;
+  }
+}

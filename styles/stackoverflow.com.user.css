@@ -1,0 +1,27 @@
+/* ==UserStyle==
+@name           stackoverflow.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for stackoverflow.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/stackoverflow.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("stackoverflow.com") {
+  body.unified-theme,
+  body.unified-theme * {
+    border: none !important;
+  }
+
+  /* stack-transparency darkreader */
+
+  /* stack-navbar */
+  .s-topbar {
+    backdrop-filter: blur(10px) !important;
+  }
+
+  /* stack-no footer */
+  #footer {
+    display: none !important;
+  }
+}

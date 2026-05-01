@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           isak.brunhenriksen.no (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for isak.brunhenriksen.no, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/isak.brunhenriksen.no.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("isak.brunhenriksen.no") {
+  body,
+  html,
+  .meny_topp,
+  #logg {
+  }
+}

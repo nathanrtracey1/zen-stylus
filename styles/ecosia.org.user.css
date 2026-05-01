@@ -1,0 +1,54 @@
+/* ==UserStyle==
+@name           ecosia.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for ecosia.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/ecosia.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("ecosia.org") {
+  html,
+  body,
+  section,
+  .layout,
+  [aria-label="Main header"],
+  .mainline__result-wrapper {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* eco-no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* eco-no sections */
+  .indexpage section,
+  .forest-section,
+  .wave-separator,
+  .instant-answer__wave {
+    display: none !important;
+  }
+
+  /* eco-hover */
+  .notifications,
+  .main-header__nav {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+
+  /* eco-no thanks */
+  .main-header__install-cta {
+    display: none !important;
+  }
+}

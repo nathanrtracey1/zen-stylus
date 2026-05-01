@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name           artbook.top (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for artbook.top, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/artbook.top.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("artbook.top") {
+  html,
+  body,
+  nav,
+  body:not(:has(.actGotop[style="display: block;"])) header,
+  #home,
+  .opus_list,
+  .item_work {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* artbook-darkreader */
+
+  /* artbook-no footer */
+  footer {
+    display: none !important;
+  }
+}

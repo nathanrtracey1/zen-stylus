@@ -1,0 +1,46 @@
+/* ==UserStyle==
+@name           reverso.net (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for reverso.net, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/reverso.net.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("reverso.net") {
+  html,
+  body,
+  nav,
+  header,
+  app-new-top-bar-desktop,
+  .translation-box,
+  .logo-wrapper {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* reverso-darkreader */
+
+  /* reverso-no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* reverso-no thanks */
+  app-ab-double-banner,
+  app-premium-banner,
+  app-features-promotion {
+    display: none !important;
+  }
+
+  /* reverso-card transparency */
+  .translation-box-wrapper {
+    border: 1px solid gray;
+  }
+}

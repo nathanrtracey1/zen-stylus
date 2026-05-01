@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           musicforprogramming.net (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for musicforprogramming.net, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/musicforprogramming.net.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("musicforprogramming.net") {
+  /* mfp-transparency */
+  body {
+    background: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out !important;
+  }
+}

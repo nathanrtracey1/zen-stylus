@@ -1,0 +1,65 @@
+/* ==UserStyle==
+@name           suno.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for suno.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/suno.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("suno.com") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar,
+  header,
+  #header,
+  .header,
+  app,
+  #app,
+  .app,
+  #main-container,
+  #main-container > div,
+  body > div,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  main,
+  #content,
+  section,
+  #__next,
+  #navigation-wrapper,
+  #global-navbar,
+  .head.notfixed,
+  body[data-theme="dark"],
+  body[data-theme="light"],
+  body.dark_mode,
+  body.light_mode {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  [alt="Suno background aura"] + div {
+    display: none !important;
+  }
+
+  [alt="Suno background aura"] {
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 60%) !important;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%) !important;
+    -webkit-mask-repeat: no-repeat !important;
+    mask-repeat: no-repeat !important;
+    -webkit-mask-size: cover !important;
+    mask-size: cover !important;
+  }
+}

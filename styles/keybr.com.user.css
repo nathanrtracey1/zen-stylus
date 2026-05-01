@@ -1,0 +1,43 @@
+/* ==UserStyle==
+@name           keybr.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for keybr.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/keybr.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("keybr.com") {
+  html,
+  body,
+  nav,
+  header,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  #content,
+  section {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* hover nav */
+  nav.EnwzInHrn0 {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+}

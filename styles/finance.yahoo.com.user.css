@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name           finance.yahoo.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for finance.yahoo.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/finance.yahoo.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("finance.yahoo.com") {
+  html,
+  body,
+  ._yb_lrldux,
+  #ybar-inner-wrap,
+  main,
+  .hero-headlines.yf-1m9jpnz,
+  .container-wrapper.yf-x6ev64,
+  .container,
+  .dock-header {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+}

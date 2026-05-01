@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name           aistudio.google.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for aistudio.google.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/aistudio.google.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("aistudio.google.com") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  header,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  #content,
+  section,
+  ms-app,
+  .banner-and-app-container,
+  ms-applets-gallery > .ng-star-inserted,
+  ms-bidi-chat {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  .toolbar-container {
+    border: none !important;
+  }
+
+  ms-bidi-audio-stream-part audio,
+  ms-bidi-audio-part audio {
+    border-radius: 1em !important;
+  }
+
+  /* full transparency */
+  ms-run-settings,
+  ms-gallery-panel,
+  ms-prompt-input-wrapper > div,
+  ms-library > div,
+  ms-applets-gallery > .ng-star-inserted > div,
+  .token-count-content,
+  .syntax-highlighted-code-wrapper {
+    background-color: light-dark(#fff5, #0003) !important;
+  }
+
+  /* no footer */
+  .disclaimer-container {
+    display: none !important;
+  }
+}

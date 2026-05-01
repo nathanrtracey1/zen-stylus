@@ -1,0 +1,43 @@
+/* ==UserStyle==
+@name           bloomberg.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for bloomberg.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/bloomberg.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("bloomberg.com") {
+  .media-ui-LeaderboardAd_parallaxWrapper-JMVgdxR--aU-,
+  [data-component="logo-bar"],
+  [data-component="menu-desktop"],
+  [data-component="logo"] {
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* bloo-darkreader */
+
+  /* bloo-hidden */
+  #bb-that {
+    display: none !important;
+  }
+
+  /* bloo-no borders */
+  section,
+  .gridLayout_gridLayout__zTmc7,
+  .LineupContent2Up_story__6VATd,
+  .PhoenixTickerBarWrapper_tickerBarWrapper__2cAU2,
+  [data-testid="secondary-stories"],
+  [data-component="grid-module"] {
+    border: none !important;
+  }
+
+  /* bloo-nav blur */
+  nav {
+    backdrop-filter: blur(20px) !important;
+  }
+}

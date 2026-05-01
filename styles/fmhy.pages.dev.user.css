@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           fmhy.pages.dev (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for fmhy.pages.dev, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/fmhy.pages.dev.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("fmhy.pages.dev") {
+  body {
+    background-color: #00000000;
+  }
+
+  /* fmhy-hidden */
+  div.aside-curtain {
+    display: none;
+  }
+}

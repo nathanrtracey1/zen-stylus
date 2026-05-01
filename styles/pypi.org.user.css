@@ -1,0 +1,46 @@
+/* ==UserStyle==
+@name           pypi.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for pypi.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/pypi.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("pypi.org") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  header,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  #content,
+  section,
+  .horizontal-section--statistics,
+  .banner,
+  .site-header {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  [id="search"],
+  .package-snippet {
+    border-radius: 0.5em !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer,
+  .language-switcher {
+    display: none !important;
+  }
+}

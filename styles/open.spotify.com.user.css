@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name           open.spotify.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for open.spotify.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/open.spotify.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("open.spotify.com") {
+  /* spotify-transparency */
+  html,
+  body,
+  nav,
+  header,
+  [data-right-sidebar-hidden],
+  [data-testid="global-nav-bar"],
+  #Desktop_LeftSidebar_Id,
+  nav[aria-label="Main"] > div,
+  .YourLibraryX,
+  .jEMA2gVoLgPQqAFrPhFw,
+  .S4OmZ_IZexmZ5dasPqW5,
+  #Desktop_PanelContainer_Id {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* spotify-darkreader */
+
+  /* spotify-no footer */
+  [data-testid="left-sidebar-footer"],
+  .main-view-container__mh-footer-container {
+    display: none !important;
+  }
+
+  /* spotify-rounded now playing */
+  #Desktop_PanelContainer_Id::before {
+    border-radius: 1em !important;
+  }
+
+  /* spotify-no thanks */
+  [data-testid="upgrade-button"],
+  a[href="/download"] {
+    display: none !important;
+  }
+}

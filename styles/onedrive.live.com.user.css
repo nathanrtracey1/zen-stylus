@@ -1,0 +1,44 @@
+/* ==UserStyle==
+@name           onedrive.live.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for onedrive.live.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/onedrive.live.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("onedrive.live.com") {
+  html,
+  body,
+  .od3Background_fed57d36,
+  .list_13bd9a05,
+  .headerRow_13bd9a05,
+  .row_13bd9a05 {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* onedrive-darkreader */
+
+  /* onedrive-no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* onedrive-no thanks */
+  .odsp-spartan-nav-expanded .storageUpsellBanner_860752dd.bannerGleam_860752dd,
+  .od-QuotaBannerWrapper-placeholder {
+    display: none;
+  }
+
+  /* onedrive-hover fix */
+  [role="row"]:has(.odsp-spartan-cell):hover {
+    background-color: var(--ms-palette-whiteTranslucent40);
+  }
+}

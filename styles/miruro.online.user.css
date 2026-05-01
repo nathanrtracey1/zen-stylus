@@ -1,0 +1,69 @@
+/* ==UserStyle==
+@name           miruro.online (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for miruro.online, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/miruro.online.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("miruro.online") {
+  /* miruro-transparency */
+  html,
+  body,
+  .eGxCRW,
+  .iDHeGb,
+  .daqunT,
+  .hIxxKF,
+  .ijmopf,
+  .cqJwte,
+  .eakZjw,
+  .gfuLhl,
+  .kdqxUl,
+  .fwmihZ,
+  .iiVqpN,
+  .ghhYJl {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  .hBwOID,
+  .eOIvsD,
+  .iqgZQl,
+  .cuwNkP,
+  .fohjVB,
+  .ebVvxo,
+  .goUZUI,
+  .iPPeAo {
+  }
+
+  /* miruro-hover */
+  .dYcGWG {
+    opacity: 0 !important;
+  }
+
+  .dYcGWG:hover {
+    opacity: 1 !important;
+    transition: 2s;
+  }
+
+  .hrJsuo {
+    border: none !important;
+  }
+
+  /* miruro-comments */
+  .dBlywK {
+    color: #fff !important;
+  }
+
+  /* miruro-no footer */
+  footer {
+    display: none !important;
+  }
+}

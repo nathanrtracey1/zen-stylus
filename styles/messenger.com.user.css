@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           messenger.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for messenger.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/messenger.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("messenger.com") {
+  /* fbm-transparecy */
+  :root {
+    --web-wash: #00000000 !important;
+    --messenger-card-background: #00000000 !important;
+    --mwp-header-background-color: #00000000 !important;
+    --mwp-message-row-background: #00000000 !important;
+  }
+
+  .xcrg951 {
+    background-color: #00000000 !important;
+    box-shadow: none !important;
+  }
+
+  /* chat bubble color */
+  [aria-label="Thread composer"],
+  ul:has(li > ul[aria-labelledby="chatSearchListHeading-Your-contacts"]) {
+    background-color: var(--mwp-message-row-background) !important;
+  }
+}

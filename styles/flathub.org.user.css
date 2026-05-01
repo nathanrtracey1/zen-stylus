@@ -1,0 +1,61 @@
+/* ==UserStyle==
+@name           flathub.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for flathub.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/flathub.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("flathub.org") {
+  [data-slot="carousel-item"] > a {
+  }
+
+  /* fh-Glass Effect */
+  .bg-white,
+  .bg-flathub-white,
+  .bg-secondary,
+  #search,
+  [data-slot="carousel-item"] > a {
+    background-color: hsla(0, 0%, 100%, 0.08) !important;
+  }
+
+  .bg-white:hover,
+  .bg-flathub-white:hover,
+  .bg-secondary:hover,
+  #search:hover {
+    background-color: hsla(0, 0%, 100%, 0.1) !important;
+  }
+
+  .bg-linear-to-r {
+    background: none !important;
+  }
+
+  /* fh-Immersive Popup */
+  body:has(> #headlessui-portal-root) {
+    main {
+      filter: blur(20px) !important;
+    }
+  }
+
+  /* fh-Fix Overlapping Header */
+  :root {
+    overflow-y: hidden !important;
+  }
+
+  header {
+    position: relative !important;
+  }
+
+  main {
+    height: calc(100dvh - 68px) !important;
+    overflow-y: auto !important;
+    padding-top: 0 !important;
+    padding-bottom: 16px !important;
+  }
+
+  /* fh-No Footer */
+  footer {
+    display: none !important;
+  }
+}

@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name           chat.deepseek.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for chat.deepseek.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/chat.deepseek.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("chat.deepseek.com") {
+  .b480065b,
+  ._871cbca,
+  ._2be88ba,
+  .b8812f16,
+  ._48cdfc1,
+  .f0d4f23d {
+    background: none !important;
+  }
+
+  /* deepseek-remove decoration */
+
+  div.fcaa63f8.d9fb9344,
+  .fcaa63f8,
+  ._62b4800 {
+    display: none !important;
+  }
+
+  /* deepseek-larger margin */
+
+  div.aaff8b8f {
+    margin-bottom: 1em !important;
+  }
+
+  /* deepseek-hover show side bar */
+
+  .dc04ec1d,
+  div.ds-flex {
+    opacity: 0 !important;
+    transition: opacity 0.3s ease-in-out !important;
+
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+}

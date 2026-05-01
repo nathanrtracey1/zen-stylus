@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           eurovisionasia.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for eurovisionasia.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/eurovisionasia.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("eurovisionasia.com") {
+  .backdrop-blur-none,
+  .backdrop-blur-md {
+    backdrop-filter: blur(10px) !important;
+  }
+}

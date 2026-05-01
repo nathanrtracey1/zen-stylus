@@ -1,0 +1,81 @@
+/* ==UserStyle==
+@name           modrinth.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for modrinth.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/modrinth.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("modrinth.com") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar,
+  header,
+  #header,
+  .header,
+  app,
+  #app,
+  section,
+  #__next,
+  #root,
+  .app,
+  .app-root,
+  #wrapper,
+  body[data-theme="dark"],
+  body[data-theme="light"],
+  #pass-sidebar,
+  .side-bar,
+  #main,
+  .sidebar,
+  main,
+  #content,
+  #cu-identity,
+  section,
+  .l-root,
+  #__next,
+  .landing-hero,
+  #navigation-wrapper,
+  #global-navbar,
+  .head.notfixed,
+  .main-container,
+  #app > div,
+  .btm-nav > a,
+  body.dark_mode,
+  body.light_mode,
+  text-div > textarea {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* disable that one ad */
+  .ad-parent {
+    display: none !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* no border around project icons */
+  .avatar {
+    background: none !important;
+    border: 0px !important;
+    box-shadow: none !important;
+  }
+}

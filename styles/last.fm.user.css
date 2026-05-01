@@ -1,0 +1,51 @@
+/* ==UserStyle==
+@name           last.fm (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for last.fm, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/last.fm.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("last.fm") {
+  /* transparency */
+  html,
+  body,
+  .top-bar,
+  #content,
+  .content-top,
+  .content-top:after,
+  .page-content,
+  .stationlink::after,
+  .chartlist-row,
+  .chartlist-row::after,
+  header,
+  .lab-header,
+  .pixel-grid .pixel-grid-container {
+    border: none !important;
+  }
+
+  /* darkreader */
+  :root {
+    --darkreader-background-ffffff: transparency !important;
+  }
+
+  /* no thanks */
+  .subscribe-cta,
+  .free-description,
+  [href="/pro"] {
+    display: none !important;
+  }
+
+  /* no footer */
+  .footer {
+    display: none !important;
+  }
+
+  /* border radius */
+  .recs-feed-inner-wrap,
+  .header-background {
+    border-radius: 1em !important;
+    overflow: hidden !important;
+  }
+}

@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name           docs.python.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for docs.python.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/docs.python.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("docs.python.org") {
+  html,
+  body,
+  nav,
+  header,
+  [role="navigation"],
+  #sidebarbutton {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* python-no footer */
+  footer {
+    display: none !important;
+  }
+}

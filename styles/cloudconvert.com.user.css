@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name           cloudconvert.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for cloudconvert.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/cloudconvert.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("cloudconvert.com") {
+  html,
+  body,
+  header,
+  nav,
+  .bg-gradient-navbar,
+  .app-content {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  .converter-header .container {
+    background-color: #00000088 !important;
+    border-radius: 2em !important;
+  }
+
+  .card {
+    border-radius: 1em !important;
+  }
+
+  /* convert-darkreader */
+
+  /* convert-hidden*/
+  footer,
+  #content {
+    display: none !important;
+  }
+
+  /* convert-hover */
+  nav {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+}

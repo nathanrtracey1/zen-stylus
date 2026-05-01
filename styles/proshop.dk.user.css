@@ -1,0 +1,53 @@
+/* ==UserStyle==
+@name           proshop.dk (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for proshop.dk, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/proshop.dk.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("proshop.dk") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  .header-sticky-show header,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  #content,
+  section,
+  .site-container-fullwidth,
+  .site-container,
+  .site-content-table {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* other */
+  .top-banner-container {
+    position: relative !important;
+  }
+
+  .site-background-banner {
+    display: none !important;
+  }
+  .header-sticky header {
+    background-color: light-dark(#000, #000);
+    border-radius: 1em !important;
+  }
+}

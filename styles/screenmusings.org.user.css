@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name           screenmusings.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for screenmusings.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/screenmusings.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("screenmusings.org") {
+  html,
+  body,
+  nav,
+  header,
+  #thumbnails-container {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* screenmusings-no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* screenmusings-rounded */
+  #navigation {
+    border-radius: 1em !important;
+  }
+}

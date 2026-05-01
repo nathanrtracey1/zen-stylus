@@ -1,0 +1,54 @@
+/* ==UserStyle==
+@name           duck.ai (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for duck.ai, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/duck.ai.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("duck.ai") {
+  /* ddg-transparency */
+  html,
+  body,
+  .desktop-homepage_root__Ikj1_,
+  .site-wrapper,
+  .metabar:not(.is-stuck),
+  .tileview--grid .metabar--fixed::before,
+  #zci-images,
+  .zci-wrap,
+  #zci-videos,
+  main,
+  main > div,
+  main > section {
+  }
+
+  /* ddg-hidden promo */
+  .desktop-homepage_heroContent__4HUFA {
+    display: none;
+  }
+
+  /* ddg-no home scroll */
+  .homepage-cta-section_scrollCta__Wmixn,
+  #features,
+  main > section > div::after,
+  main > section > div > form::before {
+    display: none;
+  }
+
+  /* ddg-no footer */
+  .footer {
+    display: none !important;
+  }
+
+  /* ddg-transparent header */
+  #header_wrapper {
+    position: sticky !important;
+  }
+
+  nav::before,
+  nav::after,
+  .XvPRmQVeIoCP5lQhICTv.ofDl_1VxUG_EKc3b9E3x::before {
+    display: none !important;
+  }
+}

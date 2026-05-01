@@ -1,0 +1,55 @@
+/* ==UserStyle==
+@name           robokits.co.in (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for robokits.co.in, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/robokits.co.in.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("robokits.co.in") {
+  /* rk-Transparency */
+  html,
+  body,
+  .dropdown-toggle,
+  .navbar,
+  .tab-pane,
+  .stuck-nav,
+  .icon,
+  .title-aside-wrapper,
+  .settings,
+  .product__inside,
+  .product__inside__hover,
+  .leftColumn,
+  #search-dropdown,
+  #search,
+  #cboxClose {
+  }
+  :root {
+    --backdrop-bg: rgba(255, 255, 255, 0.75);
+    --backdrop-filter: blur(16px) saturate(180%) !important;
+  }
+
+  /* rk-Darkreader */
+
+  [data-darkreader-scheme="dark"] {
+    --backdrop-bg: rgba(0, 0, 0, 0.75) !important;
+  }
+
+  /* rk-Translucent Overlays */
+  nav,
+  .dropdown-menu,
+  .fixedbar,
+  .resultsContainer,
+  .megamenu__submenu,
+  .dropdown-toggle:hover,
+  .input-outer {
+    backdrop-filter: var(--backdrop-filter) !important;
+    background-color: var(--backdrop-bg) !important;
+  }
+
+  /* rk-No Footer */
+  footer {
+    display: none !important;
+  }
+}

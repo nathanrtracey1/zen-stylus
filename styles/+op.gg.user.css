@@ -1,0 +1,51 @@
+/* ==UserStyle==
+@name           +op.gg (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +op.gg, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+op.gg.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+op.gg") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  header,
+  .DesktopGNB-module_desktop-gnb__939BZ,
+  .lnb--home,
+  .opgg-header,
+  .opgg-header__snb,
+  body > div,
+  .gnb--home {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* no game banner */
+  .content__bg,
+  .content__wrapper {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+}

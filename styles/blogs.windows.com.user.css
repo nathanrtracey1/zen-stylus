@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name           blogs.windows.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for blogs.windows.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/blogs.windows.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("blogs.windows.com") {
+  html,
+  body,
+  nav,
+  header,
+  .global-head-cont,
+  .panel,
+  .u-bc-grey,
+  .l-container::before {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* msblog-darkreader */
+
+  /* msblog-no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* msblog-border */
+  .s-list__item,
+  .tribe-image img {
+    border-radius: 1em !important;
+    overflow: hidden !important;
+  }
+}

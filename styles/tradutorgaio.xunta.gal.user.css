@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name           tradutorgaio.xunta.gal (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for tradutorgaio.xunta.gal, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/tradutorgaio.xunta.gal.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("tradutorgaio.xunta.gal") {
+  |cssbase/* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar,
+  header,
+  #header,
+  .header,
+  app,
+  #app,
+  .app,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  main,
+  #content,
+  section, .languages,
+  #__next, .textboxes,
+  #navigation-wrapper,
+  #global-navbar,
+  .head.notfixed, 
+  body[data-theme="dark"], body[data-theme="light"],
+  body.dark_mode, body.light_mode {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  .textbox,
+  textarea {
+    border-radius: 1em !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+}

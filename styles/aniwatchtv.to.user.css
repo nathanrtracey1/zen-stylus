@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name           aniwatchtv.to (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for aniwatchtv.to, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/aniwatchtv.to.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("aniwatchtv.to") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  header,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  #content,
+  section,
+  #mw-top::before,
+  #mw-top,
+  .share-buttons.share-buttons-detail,
+  .anis-cover-wrap,
+  .anis-cover,
+  #episodes-content,
+  .player-servers,
+  .watch-player,
+  .player-controls,
+  #servers-content {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+}

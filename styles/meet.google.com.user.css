@@ -1,0 +1,104 @@
+/* ==UserStyle==
+@name           meet.google.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for meet.google.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/meet.google.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("meet.google.com") {
+  /* meet-transparency */
+  html,
+  body,
+  nav,
+  header,
+  [jsname="Jup3Tc"],
+  .c8mVDd,
+  c-wiz,
+  .Sdwpn.P9KVBf,
+  .P9KVBf .dkjMxf,
+  .R3Gmyc,
+  .WUFI9b,
+  [aria-label="navigational drawer"] {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    [aria-label="Side panel"],
+    [role="option"][aria-selected="false"],
+    .ix4A2e,
+    [role="banner"],
+    .pI48Vc,
+    .PQ1s4c {
+      p,
+      i,
+      span,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      div,
+      input {
+        color: #fff !important;
+      }
+    }
+
+    div[data-menu-uid]:has([role="menu"]) {
+      p,
+      i,
+      span,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      div,
+      input {
+        color: #000 !important;
+      }
+    }
+  }
+
+  /* meet-darkreader */
+
+  /* meet-no footer */
+  footer,
+  .xDIlIc,
+  .sxAeHb,
+  [jsname="cDPtp"] {
+    display: none !important;
+  }
+
+  /* meet-hidden */
+  h1.r3f7Nb,
+  .MZWksc:has(span),
+  .sIR20d {
+    display: none !important;
+  }
+
+  /* meet-meet card */
+  .mtr0Je {
+    border-radius: 1em !important;
+    margin-bottom: 1em !important;
+  }
+
+  div.uW2Fw-IE5DDf {
+    display: none;
+  }
+
+  /* meet-no permission prompt */
+  div.uW2Fw-Sx9Kwc.uW2Fw-Sx9Kwc-OWXEXe-n2to0e.UcM4Rc.YqDQLb.tTaNEd.uW2Fw-Sx9Kwc-OWXEXe-FNFY6c {
+    display: none;
+  }
+}

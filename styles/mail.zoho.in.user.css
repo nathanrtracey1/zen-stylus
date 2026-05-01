@@ -1,0 +1,138 @@
+/* ==UserStyle==
+@name           mail.zoho.in (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for mail.zoho.in, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/mail.zoho.in.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("mail.zoho.in") {
+  /* zm-Transparency */
+  body,
+  #ms_load,
+  .zmLHSBlk,
+  .zmTopBar,
+  .zmWorkSpace,
+  .zmRhsBar,
+  .zmAppsBar,
+  .SC_pv,
+  .zmListHeader,
+  .zmdrawer__1ep6vdh,
+  .zmup__vfwyn3,
+  .zmdrawer__llvj0t,
+  .zmbackdrop--dark__bxuhvd,
+  .zgs19_gsSettingsHolder {
+  }
+
+  body,
+  .zmNightMode {
+    --zmdialog-backdrop-color: transparent !important;
+  }
+
+  .zmLhsCollapseWrap {
+  }
+
+  /* zm-Immersive Popup */
+  body {
+  }
+
+  .zmtext--filled__1pal3ik,
+  .zmhamburger__heading__VKJhP,
+  .zmhamburger-heading-label__zNjuB,
+  .zgs19_gsOverlay,
+  .zgs19_gsCalloutIconInfo {
+  }
+
+  body {
+    &:has(#topBar > .zmSearchWra.zmSSOn) {
+      #zm_centerHolder {
+        filter: blur(20px) !important;
+        pointer-events: none !important;
+      }
+    }
+
+    &:has(> #zmCompPortalWrapper > div:not(:empty), > #zgs20_globalsearch[data-isgsopened="true"]) {
+      > .zmBody,
+      > #wmstoolbar {
+        filter: blur(20px) !important;
+        pointer-events: none !important;
+      }
+    }
+  }
+
+  /* zm-Glass Effect */
+  body,
+  .zmLHSDark {
+    --app-grey-10: var(--color-highlight) !important;
+    --app-grey-20: var(--color-highlight) !important;
+    --app-grey-50: var(--color-highlight) !important;
+    --app-grey-100: var(--color-highlight) !important;
+    --zmdropdown-bg: var(--color-highlight) !important;
+    --zmpopover-bg: var(--color-highlight) !important;
+    --app-border-color: var(--color-highlight) !important;
+    --app-center-block-border: var(--color-highlight) !important;
+    --app-list-hover-bg: var(--color-highlight) !important;
+    --app-list-border-color: var(--color-highlight) !important;
+    --app-list-header-border-color: var(--color-highlight) !important;
+    --app-lhs-list-selected-bg: var(--color-highlight) !important;
+    --app-input-box-filled-hover-bg: var(--color-highlight) !important;
+    --app-theme-list-selected-bg: var(--color-highlight) !important;
+    --zmsettings-info-bg: var(--color-highlight) !important;
+    --zs-primaryBGColor: var(--color-highlight) !important;
+    --zs-primarySelectedBGColor: var(--color-highlight) !important;
+  }
+
+  .zmLhsCollapse {
+    --zmbutton-hover-bg: var(--color-highlight) !important;
+  }
+
+  .zmRhsAppNav,
+  .zmSearch,
+  .zmdrawer__1ep6vdh,
+  .zmdrawer__llvj0t,
+  .zmsettings-page-wrapper,
+  .zgs19_gsSelectedElem,
+  .zgs19_gsUniIconHolder,
+  .zmhamburger-slider__box--red__zDkI0,
+  .zsNightMode #zgs20_globalsearch .zgs19_gsUnSelectedElem:hover {
+    background-color: var(--color-highlight) !important;
+  }
+
+  .zsNightMode #zgs20_globalsearch .zgs19_gsSearchTopBandHolder,
+  .zsNightMode #zgs20_globalsearch .zgs19_gsServiceTemplate {
+    border-color: var(--color-highlight) !important;
+  }
+
+  /* zm-Fix Overlappings */
+  .zmListHeader,
+  .zmhamburger-heading-label__zNjuB,
+  .zmhamburger__heading--sticky__jaoED {
+    position: relative !important;
+  }
+
+  .zmAppHeader {
+    border-bottom: none !important;
+  }
+
+  .SC_mclst {
+    border-top: var(--app-border-color) 1px solid;
+  }
+
+  @media only screen and (max-width: 1023px) {
+    #jstab-zm_Container > div:has(> .SC_pv.shw) {
+      > .zmAppHeader,
+      > .zmAppContent {
+        display: none !important;
+      }
+    }
+  }
+
+  /* zm-Misc */
+  .zmTtab li > span::before {
+    display: none !important;
+  }
+  .zmdialog__32eyk0 {
+    background-color: var(--color-highlight) !important;
+  }
+}

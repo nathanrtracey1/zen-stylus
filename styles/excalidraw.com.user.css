@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           excalidraw.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for excalidraw.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/excalidraw.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("excalidraw.com") {
+  /* Can't be themed ;( $ Unfortunately with how the canvas works in this website, We can not theme a js element with css to make it transparent. Would have been cool, I know */
+  :root {
+    --zeninternet: none;
+  }
+}

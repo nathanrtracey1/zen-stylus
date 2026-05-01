@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name           kagi.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for kagi.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/kagi.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("kagi.com") {
+  html,
+  body,
+  .search-results,
+  .search-header,
+  .search-footer,
+  .search-container {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
+  }
+
+  /* kagi-hidden */
+  .search-footer,
+  .search-header,
+  .ads-container,
+  .sponsored-links {
+    display: none !important;
+  }
+
+  /* kagi-no-footer */
+  footer {
+    display: none !important;
+  }
+}

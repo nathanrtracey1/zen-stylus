@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           theonion.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for theonion.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/theonion.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("theonion.com") {
+  /* theonion-transparent */
+  :root {
+    --wp--preset--color--shade-2: transparent !important;
+  }
+}

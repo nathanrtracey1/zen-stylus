@@ -1,0 +1,46 @@
+/* ==UserStyle==
+@name           skknower.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for skknower.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/skknower.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("skknower.com") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  header,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  #content,
+  section,
+  #__next,
+  [data-light] #sidebar,
+  [data-dark] #sidebar,
+  #discover_nav,
+  #index_news,
+  [data-dark] #chat_area,
+  [data-light] #chat_area,
+  .conbuttom,
+  .menuBar {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+}

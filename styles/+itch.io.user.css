@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name           +itch.io (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +itch.io, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+itch.io.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+itch.io") {
+  html,
+  body,
+  nav,
+  header,
+  .index_sidebar,
+  #maincontent,
+  .primary_header,
+  .anon_intro {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* itch-darkreader */
+
+  /* itch-no footer */
+  .footer {
+    display: none !important;
+  }
+
+  /* itch-no game bg */
+  #wrapper,
+  #wrapper > #inner_column {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+}

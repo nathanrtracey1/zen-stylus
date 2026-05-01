@@ -1,0 +1,60 @@
+/* ==UserStyle==
+@name           chzzk.naver.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for chzzk.naver.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/chzzk.naver.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("chzzk.naver.com") {
+  /* cz-transparent-background */
+  body {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  /* cz-darkreader */
+
+  /* cz-hide-footer */
+  footer,
+  #footer,
+  .footer {
+    display: none !important;
+  }
+
+  /* cz-toolbar-header-transparent */
+  div.toolbar_container__k2trF,
+  div.header_wrapper__bBUcP {
+  }
+
+  /* cz-header-navigation */
+  div.header_service__DyG7M,
+  nav#navigation.navigator_is_expanded__4Q1h9,
+  nav#navigation {
+    background-color: var(--color-bg-topbanner) !important;
+    border-radius: 15px !important;
+    margin: 10px !important;
+    padding-top: 14px !important;
+    padding-bottom: 18px !important;
+  }
+
+  /* cz-header-width */
+  div.header_wrapper__bBUcP {
+    width: 126% !important;
+  }
+  /* cz-header-positioning */
+  h1.header_logo__JUJQo {
+    left: 95px !important;
+  }
+
+  div.header_wrapper__bBUcP header.header_area__mzpMy button.header_button__oszSs {
+    left: 10px !important;
+  }
+
+  div.search_form__jjNJN,
+  a.toolbar_link__p4qbh {
+    background-color: var(--color-bg-topbanner) !important;
+  }
+}

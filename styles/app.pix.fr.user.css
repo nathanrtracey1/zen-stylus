@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           app.pix.fr (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for app.pix.fr, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/app.pix.fr.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("app.pix.fr") {
+  /* darkreader */
+
+  /* no footer */
+  footer,
+  mfe-footer-pharos-footer,
+  .footer,
+  #footer {
+    display: none !important;
+  }
+}

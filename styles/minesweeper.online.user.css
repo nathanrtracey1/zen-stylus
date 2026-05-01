@@ -1,0 +1,66 @@
+/* ==UserStyle==
+@name           minesweeper.online (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for minesweeper.online, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/minesweeper.online.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("minesweeper.online") {
+  html,
+  body {
+  }
+
+  header .navbar-desktop {
+    box-shadow: none !important;
+  }
+
+  .main-content {
+    box-shadow: none !important;
+  }
+
+  .main-column {
+    box-shadow: none !important;
+  }
+
+  /* minesweeperonline-hover */
+  #header {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+  #header:hover {
+    opacity: 1 !important;
+  }
+  .left-column {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+
+  .left-column:hover {
+    opacity: 1 !important;
+  }
+
+  .game-bottom-panel {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+
+  .game-bottom-panel:hover {
+    opacity: 1 !important;
+  }
+
+  #LevelSelectBlock {
+    opacity: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+
+  #LevelSelectBlock:hover {
+    opacity: 1 !important;
+  }
+
+  /* minesweeperonline-hide footer */
+  footer {
+    display: none !important;
+  }
+}

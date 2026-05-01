@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name           miruro.tv (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for miruro.tv, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/miruro.tv.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("miruro.tv") {
+  /* miruro-transparency */
+  html,
+  body,
+  .eGxCRW,
+  .iDHeGb,
+  .daqunT,
+  .hIxxKF,
+  .ijmopf,
+  .cqJwte,
+  .eakZjw,
+  .gfuLhl,
+  .kdqxUl,
+  .fwmihZ,
+  .iiVqpN,
+  .ghhYJl {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* miruro-no footer */
+  footer {
+    display: none !important;
+  }
+}

@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           news.ycombinator.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for news.ycombinator.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/news.ycombinator.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("news.ycombinator.com") {
+  table {
+  }
+  .commtext,
+  .c00 a:link,
+  a:link {
+    color: light-dark(#000, whitesmoke);
+  }
+}

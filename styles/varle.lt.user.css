@@ -1,0 +1,55 @@
+/* ==UserStyle==
+@name           varle.lt (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for varle.lt, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/varle.lt.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("varle.lt") {
+  |cssbase/* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar,
+  header,
+  #header,
+  .header,
+  app,
+  #app,
+  .app,
+  .app-root, .PRODUCT_SPEC_FILTERS li,
+  #pass-sidebar, .PRODUCT_SPEC li,
+  #main, .grid-line,
+  main, .BRANDS, .fade-left, .fade-right,
+  #content, .TOP_INFO_LINE,
+  section, .HEADER.hero-background:not(.sticky), .HEADER.hero-background:not(.sticky) > div,
+  #__next, .HERO_CONTAINER,
+  #navigation-wrapper,
+  #global-navbar,
+  .head.notfixed, 
+  body[data-theme="dark"], body[data-theme="light"],
+  body.dark_mode, body.light_mode {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer,
+  .footer-container {
+    display: none !important;
+  }
+}

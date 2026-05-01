@@ -1,0 +1,62 @@
+/* ==UserStyle==
+@name           edclub.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for edclub.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/edclub.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("edclub.com") {
+  /* transparency */
+  html,
+  body,
+  nav,
+  #nav,
+  .nav,
+  navbar,
+  .navbar,
+  #navbar header,
+  #header,
+  .header,
+  app,
+  #app,
+  .app,
+  .app-root,
+  #pass-sidebar,
+  #main,
+  main,
+  #content,
+  section,
+  #__next,
+  #navigation-wrapper,
+  #global-navbar,
+  #instruction,
+  .head.notfixed,
+  .bottom-nav-bar,
+  .hdrlt,
+  .spelling-results-panel,
+  body.dark_mode,
+  body.light_mode,
+  .lpviewbox {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  .lpbackground {
+    display: none !important;
+  }
+
+  /* darkreader */
+
+  /* no footer */
+  footer {
+    display: none !important;
+  }
+}

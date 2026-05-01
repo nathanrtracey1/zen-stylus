@@ -1,0 +1,57 @@
+/* ==UserStyle==
+@name           lightnovelworld.co (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for lightnovelworld.co, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260501.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/lightnovelworld.co.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("lightnovelworld.co") {
+  /* novel-transparency */
+  html,
+  body,
+  nav,
+  header,
+  #novel,
+  .novel-body,
+  .comment-item,
+  li.show_replies,
+  #chapter-article,
+  .titles,
+  .chapternav,
+  #chapter-comments {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* novel-darkreader */
+
+  /* novel-no footer */
+  footer {
+    display: none !important;
+  }
+
+  /* novel-hidden */
+  .glass-background,
+  .DlIdmrby {
+    display: none !important;
+  }
+
+  /* novel-transparent paper */
+  #chapter-container {
+  }
+
+  /* novel-floating reader */
+  #chapter-container {
+    border: solid 1px var(--bg-nav-header) !important;
+    border-radius: 1em !important;
+    box-shadow: #00000066 0px 0px 300px;
+  }
+}
