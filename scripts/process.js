@@ -200,7 +200,7 @@ Updated nightly via GitHub Actions.
 
 | Site | Install |
 |------|---------|
-${available.map((d) => `| ${d} | [Install](../../raw/main/styles/${d}.user.css) |`).join("\n")}
+${available.map((d) => `| ${d} | [Install](https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY || "YOUR-USERNAME/YOUR-REPO"}/main/styles/${d}.user.css) |`).join("\n")}
 
 _Last updated: ${new Date().toUTCString()}_
 `;
