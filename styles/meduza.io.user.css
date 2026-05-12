@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name           meduza.io (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for meduza.io, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260512.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/meduza.io.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("meduza.io") {
+  .Layout-module-root,
+  .GeneralMaterial-module-root {
+  }
+
+  /* custom-links */
+  a {
+    color: #e7eaff !important;
+  }
+
+  /* custom-cards */
+  .RichBlock-module-root {
+    background-color: #385d7d36 !important;
+    box-shadow: none !important;
+  }
+
+  /* custom-cards-override-inline */
+  article.RichBlock-module-root {
+    --bgColor: rgba(26, 26, 26, 0.41) !important;
+  }
+
+  /* custom-text */
+  .GeneralMaterial-module-article {
+    color: white !important;
+  }
+
+  .RichTitle-module_root__U5XQu {
+    color: white !important;
+  }
+
+  .SimpleTitle-module_root__YOzNn {
+    color: #c7c2fde5 !important;
+  }
+
+  /* custom-highlight */
+  span[data-body] {
+    background: #93b8ffa1 !important;
+  }
+}

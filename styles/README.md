@@ -10,7 +10,7 @@ Updated nightly via GitHub Actions.
 3. Click the raw link and Stylus will offer to install it automatically
 4. Enable auto-update in Stylus settings — it will stay in sync with upstream
 
-## Sites (651)
+## Sites (654)
 
 | Site | Install |
 |------|---------|
@@ -186,6 +186,7 @@ Updated nightly via GitHub Actions.
 | convertio.co | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/convertio.co.user.css) |
 | copilot.microsoft.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/copilot.microsoft.com.user.css) |
 | cosmos.so | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/cosmos.so.user.css) |
+| create.roblox.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/create.roblox.com.user.css) |
 | croxyproxy.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/croxyproxy.com.user.css) |
 | cs.rin.ru | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/cs.rin.ru.user.css) |
 | csstats.gg | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/csstats.gg.user.css) |
@@ -388,6 +389,7 @@ Updated nightly via GitHub Actions.
 | market.yandex.ru | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/market.yandex.ru.user.css) |
 | mastodon.social | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/mastodon.social.user.css) |
 | mathspad.co.uk | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/mathspad.co.uk.user.css) |
+| meduza.io | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/meduza.io.user.css) |
 | meet.google.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/meet.google.com.user.css) |
 | messages.google.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/messages.google.com.user.css) |
 | messenger.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/messenger.com.user.css) |
@@ -420,6 +422,7 @@ Updated nightly via GitHub Actions.
 | naver.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/naver.com.user.css) |
 | nba.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/nba.com.user.css) |
 | nebula.tv | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/nebula.tv.user.css) |
+| netflix.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/netflix.com.user.css) |
 | newcger.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/newcger.com.user.css) |
 | newegg.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/newegg.com.user.css) |
 | news.google.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/news.google.com.user.css) |
@@ -666,4 +669,4 @@ Updated nightly via GitHub Actions.
 | zeppelin.social | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/zeppelin.social.user.css) |
 | zingfont.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/zingfont.com.user.css) |
 
-_Last updated: Mon, 11 May 2026 06:45:05 GMT_
+_Last updated: Tue, 12 May 2026 06:19:35 GMT_
