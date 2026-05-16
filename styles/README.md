@@ -10,12 +10,13 @@ Updated nightly via GitHub Actions.
 3. Click the raw link and Stylus will offer to install it automatically
 4. Enable auto-update in Stylus settings — it will stay in sync with upstream
 
-## Sites (654)
+## Sites (667)
 
 | Site | Install |
 |------|---------|
 | +adobe.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+adobe.com.user.css) |
 | +aliexpress.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+aliexpress.com.user.css) |
+| +anthropic.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+anthropic.com.user.css) |
 | +arattai.in | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+arattai.in.user.css) |
 | +archlinux.org | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+archlinux.org.user.css) |
 | +arduino.cc | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+arduino.cc.user.css) |
@@ -29,6 +30,7 @@ Updated nightly via GitHub Actions.
 | +catbox.moe | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+catbox.moe.user.css) |
 | +cinny.in | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+cinny.in.user.css) |
 | +cloud.microsoft | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+cloud.microsoft.user.css) |
+| +cloudflare.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+cloudflare.com.user.css) |
 | +craigslist.org | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+craigslist.org.user.css) |
 | +delhivery.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+delhivery.com.user.css) |
 | +diagrams.net | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+diagrams.net.user.css) |
@@ -44,6 +46,7 @@ Updated nightly via GitHub Actions.
 | +itch.io | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+itch.io.user.css) |
 | +ixl.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+ixl.com.user.css) |
 | +kotlinlang.org | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+kotlinlang.org.user.css) |
+| +linear.app | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+linear.app.user.css) |
 | +linkedin.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+linkedin.com.user.css) |
 | +mediawiki.org | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+mediawiki.org.user.css) |
 | +medium.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+medium.com.user.css) |
@@ -62,6 +65,7 @@ Updated nightly via GitHub Actions.
 | +qmk.fm | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+qmk.fm.user.css) |
 | +rust-lang.org | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+rust-lang.org.user.css) |
 | +sharepoint.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+sharepoint.com.user.css) |
+| +slack.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+slack.com.user.css) |
 | +stackexchange.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+stackexchange.com.user.css) |
 | +t3.chat | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+t3.chat.user.css) |
 | +thunderstore.io | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+thunderstore.io.user.css) |
@@ -144,6 +148,7 @@ Updated nightly via GitHub Actions.
 | bloomberg.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/bloomberg.com.user.css) |
 | boards.theforce.net | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/boards.theforce.net.user.css) |
 | booking.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/booking.com.user.css) |
+| boot.dev | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/boot.dev.user.css) |
 | britannica.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/britannica.com.user.css) |
 | bryk.pl | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/bryk.pl.user.css) |
 | bsky.app | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/bsky.app.user.css) |
@@ -312,6 +317,7 @@ Updated nightly via GitHub Actions.
 | heise.de | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/heise.de.user.css) |
 | hianime.to | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/hianime.to.user.css) |
 | hianimez.to | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/hianimez.to.user.css) |
+| higgsfield.ai | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/higgsfield.ai.user.css) |
 | hltv.org | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/hltv.org.user.css) |
 | homeofdevs.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/homeofdevs.com.user.css) |
 | hotstar.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/hotstar.com.user.css) |
@@ -346,6 +352,7 @@ Updated nightly via GitHub Actions.
 | jules.google.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/jules.google.com.user.css) |
 | justwatch.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/justwatch.com.user.css) |
 | kagi.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/kagi.com.user.css) |
+| karabiner-elements.pqrs.org | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/karabiner-elements.pqrs.org.user.css) |
 | katex.org | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/katex.org.user.css) |
 | keep.google.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/keep.google.com.user.css) |
 | keeta.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/keeta.com.user.css) |
@@ -353,6 +360,7 @@ Updated nightly via GitHub Actions.
 | kemono.su | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/kemono.su.user.css) |
 | keybr.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/keybr.com.user.css) |
 | kick.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/kick.com.user.css) |
+| kitty.app | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/kitty.app.user.css) |
 | kleinanzeigen.de | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/kleinanzeigen.de.user.css) |
 | knowledgeboat.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/knowledgeboat.com.user.css) |
 | ksp.co.il | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/ksp.co.il.user.css) |
@@ -404,6 +412,7 @@ Updated nightly via GitHub Actions.
 | minesweeper.online | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/minesweeper.online.user.css) |
 | miruro.online | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/miruro.online.user.css) |
 | miruro.tv | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/miruro.tv.user.css) |
+| mizzou.edu | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/mizzou.edu.user.css) |
 | mkvdrama.me | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/mkvdrama.me.user.css) |
 | modrinth.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/modrinth.com.user.css) |
 | monkeytype.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/monkeytype.com.user.css) |
@@ -430,6 +439,7 @@ Updated nightly via GitHub Actions.
 | nextcloud.localhost | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/nextcloud.localhost.user.css) |
 | nexusmods.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/nexusmods.com.user.css) |
 | nicovideo.jp | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/nicovideo.jp.user.css) |
+| nikitabobko.github.io | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/nikitabobko.github.io.user.css) |
 | ninite.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/ninite.com.user.css) |
 | noon.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/noon.com.user.css) |
 | notebooklm.google.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/notebooklm.google.com.user.css) |
@@ -439,6 +449,7 @@ Updated nightly via GitHub Actions.
 | nunflix.org | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/nunflix.org.user.css) |
 | nuphy.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/nuphy.com.user.css) |
 | nytimes.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/nytimes.com.user.css) |
+| obsidian.md | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/obsidian.md.user.css) |
 | odigitis.gr | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/odigitis.gr.user.css) |
 | odysee.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/odysee.com.user.css) |
 | old.reddit.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/old.reddit.com.user.css) |
@@ -471,6 +482,7 @@ Updated nightly via GitHub Actions.
 | photos.google.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/photos.google.com.user.css) |
 | pixiv.net | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/pixiv.net.user.css) |
 | planetminecraft.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/planetminecraft.com.user.css) |
+| plash.app | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/plash.app.user.css) |
 | platform.openai.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/platform.openai.com.user.css) |
 | play.google.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/play.google.com.user.css) |
 | play.pocketcasts.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/play.pocketcasts.com.user.css) |
@@ -659,6 +671,7 @@ Updated nightly via GitHub Actions.
 | xinpianchang.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/xinpianchang.com.user.css) |
 | ya.ru | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/ya.ru.user.css) |
 | yandex.ru | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/yandex.ru.user.css) |
+| yazi-rs.github.io | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/yazi-rs.github.io.user.css) |
 | you.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/you.com.user.css) |
 | youtube.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/youtube.com.user.css) |
 | youvideototext.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/youvideototext.com.user.css) |
@@ -669,4 +682,4 @@ Updated nightly via GitHub Actions.
 | zeppelin.social | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/zeppelin.social.user.css) |
 | zingfont.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/zingfont.com.user.css) |
 
-_Last updated: Fri, 15 May 2026 06:38:43 GMT_
+_Last updated: Sat, 16 May 2026 05:59:16 GMT_

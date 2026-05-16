@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name           mizzou.edu (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for mizzou.edu, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260516.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/mizzou.edu.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("mizzou.edu") {
+  /* mzu-transparency */
+  html,
+  body,
+  nav,
+  header,
+  footer,
+  section,
+  main,
+  article,
+  #main,
+  .main,
+  .content,
+  .wrapper,
+  .container,
+  .site-header,
+  .site-footer,
+  .site-content,
+  .page-wrapper,
+  .page-content {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* mzu-darkreader */
+
+  /* mzu-no footer */
+  footer,
+  .footer,
+  .site-footer {
+    display: none !important;
+  }
+}

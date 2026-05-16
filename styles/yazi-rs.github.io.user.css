@@ -1,0 +1,58 @@
+/* ==UserStyle==
+@name           yazi-rs.github.io (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for yazi-rs.github.io, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260516.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/yazi-rs.github.io.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("yazi-rs.github.io") {
+  /* yaz-transparency */
+  html,
+  body,
+  nav,
+  header,
+  footer,
+  section,
+  main,
+  article,
+  .container,
+  .wrapper,
+  .content,
+  .sidebar,
+  .menu,
+  .navbar,
+  .VPNav,
+  .VPNavBar,
+  .VPSidebar,
+  .VPSidebarItem,
+  .VPContent,
+  .VPDoc,
+  .VPHome,
+  .VPHero,
+  .VPLocalNav,
+  .VPFooter,
+  [class*="VPDoc"],
+  [class*="vp-doc"] {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* yaz-vitepress vars */
+
+  /* yaz-darkreader */
+
+  /* yaz-no footer */
+  footer,
+  .VPFooter,
+  .footer {
+    display: none !important;
+  }
+}

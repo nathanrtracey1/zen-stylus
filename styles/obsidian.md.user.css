@@ -1,0 +1,53 @@
+/* ==UserStyle==
+@name           obsidian.md (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for obsidian.md, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260516.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/obsidian.md.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("obsidian.md") {
+  /* obs-transparency */
+  html,
+  body,
+  nav,
+  .nav,
+  header,
+  .header,
+  footer,
+  section,
+  main,
+  #main,
+  #root,
+  #__next,
+  .layout,
+  .container,
+  .site-header,
+  .site-footer,
+  .site-content,
+  .markdown-body,
+  .markdown-rendered,
+  .theme-dark,
+  .theme-light,
+  [class*="hero"],
+  [class*="Hero"] {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* obs-darkreader */
+
+  /* obs-no footer */
+  footer,
+  .footer,
+  .site-footer {
+    display: none !important;
+  }
+}

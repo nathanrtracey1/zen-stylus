@@ -1,0 +1,56 @@
+/* ==UserStyle==
+@name           +slack.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +slack.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260516.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+slack.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+slack.com") {
+  /* slk-transparency */
+  html,
+  body,
+  nav,
+  header,
+  footer,
+  section,
+  main,
+  #main,
+  #root,
+  #__next,
+  .app,
+  .p-client,
+  .p-client_workspace_wrapper,
+  .p-workspace,
+  .p-workspace__sidebar,
+  .p-workspace__primary_view,
+  .p-channel_sidebar,
+  .p-tab_rail,
+  .p-top_nav,
+  .p-ia__sidebar_list,
+  [class*="sidebar"],
+  [class*="Sidebar"],
+  [data-qa="message_pane"],
+  [data-qa="workspace_sidebar"] {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* slk-css vars */
+
+  /* slk-darkreader */
+
+  /* slk-no footer */
+  footer,
+  .footer,
+  #footer {
+    display: none !important;
+  }
+}

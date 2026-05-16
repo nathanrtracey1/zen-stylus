@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name           +cloudflare.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +cloudflare.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260516.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+cloudflare.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+cloudflare.com") {
+  /* cf-transparency */
+  html,
+  body,
+  nav,
+  header,
+  footer,
+  section,
+  main,
+  #root,
+  #__next,
+  #app,
+  .app,
+  .layout,
+  .sidebar,
+  .dashboard-layout,
+  .dashboard-sidebar,
+  .dashboard-content,
+  .workers-layout,
+  [class*="Sidebar"],
+  [class*="Layout"],
+  [class*="Header"],
+  [class*="Background"],
+  [class*="background"] {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* cf-darkreader */
+
+  /* cf-no footer */
+  footer,
+  .footer,
+  #footer {
+    display: none !important;
+  }
+}

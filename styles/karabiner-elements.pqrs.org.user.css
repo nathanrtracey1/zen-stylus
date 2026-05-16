@@ -1,0 +1,50 @@
+/* ==UserStyle==
+@name           karabiner-elements.pqrs.org (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for karabiner-elements.pqrs.org, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260516.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/karabiner-elements.pqrs.org.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("karabiner-elements.pqrs.org") {
+  /* kbn-transparency */
+  html,
+  body,
+  nav,
+  header,
+  footer,
+  section,
+  main,
+  .container,
+  .wrapper,
+  .content,
+  .sidebar,
+  .menu,
+  .navbar,
+  [class*="docusaurus"],
+  [class*="theme-doc"],
+  [class*="navbar"],
+  .theme-doc-sidebar-container,
+  .theme-doc-sidebar-menu,
+  .theme-doc-markdown,
+  .main-wrapper {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition:
+      background-color 0.5s ease-in-out,
+      background 0.5s ease-in-out,
+      border 0.5s ease-in-out,
+      box-shadow 0.5s ease-in-out !important;
+  }
+
+  /* kbn-darkreader */
+
+  /* kbn-no footer */
+  footer,
+  .footer,
+  .footer__bottom {
+    display: none !important;
+  }
+}
