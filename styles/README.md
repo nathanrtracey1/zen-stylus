@@ -682,4 +682,4 @@ Updated nightly via GitHub Actions.
 | zeppelin.social | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/zeppelin.social.user.css) |
 | zingfont.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/zingfont.com.user.css) |
 
-_Last updated: Sun, 31 May 2026 07:02:46 GMT_
+_Last updated: Mon, 01 Jun 2026 08:40:40 GMT_
