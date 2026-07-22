@@ -2,7 +2,7 @@
 @name           youtube.com (Zen Internet - no transparency)
 @namespace      github.com/sameerasw/my-internet
 @description    Layout and distraction-removal tweaks from Zen Internet for youtube.com, with transparency stripped. Auto-generated — do not edit manually.
-@version        20260721.1
+@version        20260722.1
 @updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/youtube.com.user.css
 @license        MIT
 ==/UserStyle== */
@@ -445,10 +445,6 @@
 
   ytd-rich-item-renderer[is-in-first-column=""] {
     margin-left: calc(var(--ytd-rich-grid-item-margin) / 2) !important;
-  }
-
-  #contents {
-    padding-left: calc(var(--ytd-rich-grid-item-margin) / 2 + var(--ytd-rich-grid-gutter-margin)) !important;
   }
 
   /* yt-Immersive search $ Smooth blur and zoom effect for searhbar */
