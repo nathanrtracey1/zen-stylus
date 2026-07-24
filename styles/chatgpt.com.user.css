@@ -2,7 +2,7 @@
 @name           chatgpt.com (Zen Internet - no transparency)
 @namespace      github.com/sameerasw/my-internet
 @description    Layout and distraction-removal tweaks from Zen Internet for chatgpt.com, with transparency stripped. Auto-generated — do not edit manually.
-@version        20260723.1
+@version        20260724.1
 @updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/chatgpt.com.user.css
 @license        MIT
 ==/UserStyle== */
@@ -62,6 +62,10 @@
   .bg-token-message-surface,
   .bg-surface-primary,
   .bg-\(--sidebar-surface-primary\) {
+  }
+
+  [data-testid="thread-disclaimer"] > div > div > div > div {
+    background-color: light-dark(#fff, #000);
   }
 
   /* cgpt-sidebar $ Sidebar glass works standalone; Tampermonkey optionally switches it to scroll-only */
@@ -805,5 +809,10 @@
       transition-duration: 0.001ms !important;
       animation-duration: 0.001ms !important;
     }
+  }
+
+  /* cgpt-hide hint $ I know ChatGPT can make mistakes */
+  [data-testid="thread-disclaimer"] {
+    display: none !important;
   }
 }
