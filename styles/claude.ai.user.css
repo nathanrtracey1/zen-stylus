@@ -2,17 +2,31 @@
 @name           claude.ai (Zen Internet - no transparency)
 @namespace      github.com/sameerasw/my-internet
 @description    Layout and distraction-removal tweaks from Zen Internet for claude.ai, with transparency stripped. Auto-generated — do not edit manually.
-@version        20260820.1
+@version        20260821.1
 @updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/claude.ai.user.css
 @license        MIT
 ==/UserStyle== */
 
 @-moz-document domain("claude.ai") {
+  /* claude-transparency */
   html,
   body,
   .z-sidebar > nav,
   .min-h-full > .bg-bg-100,
-  .max-h-screen > .bg-bg-100 {
+  .max-h-screen > .bg-bg-100,
+  .root > div > div > div,
+  main,
+  aside,
+  .df-header-backdrop,
+  [data-chat-input-container="true"] > [role="note"][data-disclaimer="true"],
+  [data-cds="ChatComposerNotices"] > [aria-live="polite"] > div,
+  [data-cds="ChatComposerNotices"] > [aria-live="polite"] > div::before,
+  [data-testid="answer-now-above-composer"] {
     background: none !important;
+  }
+
+  /* claude-hide disclaimer */
+  [data-chat-input-container="true"] > [role="note"][data-disclaimer="true"] {
+    opacity: 0 !important;
   }
 }
