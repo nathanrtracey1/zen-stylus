@@ -2,14 +2,16 @@
 @name           +bilibili.com (Zen Internet - no transparency)
 @namespace      github.com/sameerasw/my-internet
 @description    Layout and distraction-removal tweaks from Zen Internet for +bilibili.com, with transparency stripped. Auto-generated — do not edit manually.
-@version        20260830.1
+@version        20260831.1
 @updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+bilibili.com.user.css
 @license        MIT
 ==/UserStyle== */
 
 @-moz-document domain("+bilibili.com") {
+  /* bilibili-transparency */
   html,
   body,
+  #app,
   #bili-header-container,
   #i_cecream,
   .bili-header,
@@ -18,6 +20,7 @@
   .bili-header .bili-header__banner,
   .bili-header .bili-header__channel {
     background: none !important;
+    background-image: none !important;
     border: none !important;
     box-shadow: none !important;
     transition:
