@@ -2,12 +2,13 @@
 @name           feedly.com (Zen Internet - no transparency)
 @namespace      github.com/sameerasw/my-internet
 @description    Layout and distraction-removal tweaks from Zen Internet for feedly.com, with transparency stripped. Auto-generated — do not edit manually.
-@version        20260906.1
+@version        20260907.1
 @updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/feedly.com.user.css
 @license        MIT
 ==/UserStyle== */
 
 @-moz-document domain("feedly.com") {
+  /* feedly-Transparency */
   html,
   body,
   nav,
@@ -16,6 +17,7 @@
   #feedlyFrame,
   #headerBarFX,
   .TopHeaderBar,
+  .FeedlyFrameHeaderBar,
   .LeftnavEmptySpace {
     background: none !important;
     border: none !important;
@@ -25,6 +27,9 @@
       background 0.5s ease-in-out,
       border 0.5s ease-in-out,
       box-shadow 0.5s ease-in-out !important;
+  }
+  .RightPanel {
+    border-left: none;
   }
 
   /* feedly-No thanks */
@@ -60,6 +65,7 @@
   .home.theme--dark {
     --semanticColorBackgroundStatesLightActive: #0005 !important;
     color-scheme: dark !important;
+    scrollbar-color: #2a2a2a5c #18181800;
   }
   .home.theme--light {
     --semanticColorBackgroundStatesLightActive: #fff8 !important;
