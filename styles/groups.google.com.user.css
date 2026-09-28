@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name           groups.google.com (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for groups.google.com, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260928.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/groups.google.com.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("groups.google.com") {
+  .gKR4Fb,
+  .wo4Ilb,
+  .C5Imhb {
+  }
+
+  div:not(.qHLDxc) > gm-coplanar-drawer .UMrnmb-vyw7Sc-Psmogf {
+    --mdc-container-color: transparent !important;
+  }
+
+  /* gg-transparent conversations list */
+  .F6rDnb.Wj1LYb:not([aria-selected]),
+  .F6rDnb.Wj1LYb[aria-selected="false"] {
+  }
+
+  /* gg-fix floating sidebar padding */
+  div.qHLDxc .UMrnmb-vyw7Sc-Psmogf {
+    padding-top: 4px !important;
+  }
+
+  /* gg-transparent search bar */
+  form.gb_2e.gb_Pd {
+    --gm3-sys-color-surface-container: transparent !important;
+  }
+}

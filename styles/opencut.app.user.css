@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           opencut.app (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for opencut.app, with transparency stripped. Auto-generated — do not edit manually.
+@version        20260928.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/opencut.app.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("opencut.app") {
+  body,
+  body > div,
+  header,
+  .sticky,
+  main .text-card-foreground {
+  }
+
+  /* oc-panels transparent */
+  .panel {
+  }
+
+  /* oc-opaque elements in catalogue */
+  .bg-accent:not(.relative) {
+    --accent: transparent !important;
+  }
+}

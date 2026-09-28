@@ -10,7 +10,7 @@ Updated nightly via GitHub Actions.
 3. Click the raw link and Stylus will offer to install it automatically
 4. Enable auto-update in Stylus settings — it will stay in sync with upstream
 
-## Sites (667)
+## Sites (670)
 
 | Site | Install |
 |------|---------|
@@ -189,6 +189,7 @@ Updated nightly via GitHub Actions.
 | console.firebase.google.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/console.firebase.google.com.user.css) |
 | contacts.google.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/contacts.google.com.user.css) |
 | convertio.co | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/convertio.co.user.css) |
+| copilot.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/copilot.com.user.css) |
 | copilot.microsoft.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/copilot.microsoft.com.user.css) |
 | cosmos.so | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/cosmos.so.user.css) |
 | create.roblox.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/create.roblox.com.user.css) |
@@ -310,6 +311,7 @@ Updated nightly via GitHub Actions.
 | gprivate.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/gprivate.com.user.css) |
 | grok.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/grok.com.user.css) |
 | ground.news | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/ground.news.user.css) |
+| groups.google.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/groups.google.com.user.css) |
 | gsmarena.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/gsmarena.com.user.css) |
 | gx.games | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/gx.games.user.css) |
 | hachyderm.io | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/hachyderm.io.user.css) |
@@ -459,6 +461,7 @@ Updated nightly via GitHub Actions.
 | online.bonjourr.fr | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/online.bonjourr.fr.user.css) |
 | open.spotify.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/open.spotify.com.user.css) |
 | openapk.net | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/openapk.net.user.css) |
+| opencut.app | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/opencut.app.user.css) |
 | openrouter.ai | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/openrouter.ai.user.css) |
 | openscrobbler.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/openscrobbler.com.user.css) |
 | opentip.kaspersky.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/opentip.kaspersky.com.user.css) |
@@ -682,4 +685,4 @@ Updated nightly via GitHub Actions.
 | zeppelin.social | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/zeppelin.social.user.css) |
 | zingfont.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/zingfont.com.user.css) |
 
-_Last updated: Sun, 27 Sep 2026 09:04:32 GMT_
+_Last updated: Mon, 28 Sep 2026 09:31:45 GMT_
