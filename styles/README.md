@@ -10,7 +10,7 @@ Updated nightly via GitHub Actions.
 3. Click the raw link and Stylus will offer to install it automatically
 4. Enable auto-update in Stylus settings — it will stay in sync with upstream
 
-## Sites (670)
+## Sites (671)
 
 | Site | Install |
 |------|---------|
@@ -53,6 +53,7 @@ Updated nightly via GitHub Actions.
 | +minecraft.wiki | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+minecraft.wiki.user.css) |
 | +mozilla.org | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+mozilla.org.user.css) |
 | +mullvad.net | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+mullvad.net.user.css) |
+| +music.yandex.ru | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+music.yandex.ru.user.css) |
 | +namecheap.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+namecheap.com.user.css) |
 | +nixos.org | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+nixos.org.user.css) |
 | +notion.site | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+notion.site.user.css) |
@@ -685,4 +686,4 @@ Updated nightly via GitHub Actions.
 | zeppelin.social | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/zeppelin.social.user.css) |
 | zingfont.com | [Install](https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/zingfont.com.user.css) |
 
-_Last updated: Wed, 28 Oct 2026 09:28:04 GMT_
+_Last updated: Thu, 29 Oct 2026 09:37:02 GMT_

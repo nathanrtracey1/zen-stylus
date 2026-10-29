@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name           +music.yandex.ru (Zen Internet - no transparency)
+@namespace      github.com/sameerasw/my-internet
+@description    Layout and distraction-removal tweaks from Zen Internet for +music.yandex.ru, with transparency stripped. Auto-generated — do not edit manually.
+@version        20261029.1
+@updateURL      https://raw.githubusercontent.com/nathanrtracey1/zen-stylus/main/styles/+music.yandex.ru.user.css
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("+music.yandex.ru") {
+  /* ytm-transparency $ Removes solid backgrounds on all routes so the browser wallpaper shows through */
+  html,
+  body,
+  [class*="CommonLayout_root__"],
+  [class*="CommonLayout_content__"],
+  [class*="DefaultLayout_root__"],
+  [class*="DefaultLayout_rootNewVibe__"],
+  [class*="Content_root__"],
+  [class*="Content_main__"] {
+    background: none !important;
+    background-image: none !important;
+  }
+
+  /* ytm-no sidebar clutter $ Hides secondary sidebar entries (trends, concerts, podcasts, kids, plus) and pinned items, keeping search, wave and collection */
+  a[href="/landing/main"],
+  a[href="/concerts"],
+  a[href="/non-music"],
+  a[href="/kids"],
+  a[href="/plus"],
+  [class*="PinItem_root__"],
+  [class*="Pin_link__"] {
+    display: none !important;
+  }
+}
